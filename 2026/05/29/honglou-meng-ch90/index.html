@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    
+    
+    <meta name="author" content="史上最聪明的韩小凡！">
+    
+    <!-- Completely eliminate flash of wrong theme -->
+    <script>
+        (function() {
+            const THEME_KEY = "REDEFINE-THEME-STATUS";
+            const DARK = "dark", LIGHT = "light";
+            
+            // Get preferred theme
+            function getTheme() {
+                try {
+                    const saved = localStorage.getItem(THEME_KEY);
+                    if (saved) {
+                        const { isDark } = JSON.parse(saved);
+                        return isDark ? DARK : LIGHT;
+                    }
+                } catch (e) {}
+                
+                return matchMedia("(prefers-color-scheme: dark)").matches ? DARK : LIGHT;
+            }
+            
+            // Apply theme to document
+            function applyTheme(theme) {
+                const isDark = theme === DARK;
+                const root = document.documentElement;
+                
+                // Set classes for compatibility
+                root.classList.add(theme);
+                root.classList.remove(isDark ? LIGHT : DARK);
+                root.style.colorScheme = theme;
+            }
+            
+            // Initial application
+            const theme = getTheme();
+            applyTheme(theme);
+            
+            // Listen for system preference changes
+            matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
+                // Only update if using system preference (no localStorage entry)
+                if (!localStorage.getItem(THEME_KEY)) {
+                    applyTheme(matches ? DARK : LIGHT);
+                }
+            });
+            
+            // Set body classes ASAP (before DOMContentLoaded)
+            (function() {
+                const addBodyClass = () => {
+                    const b = document.body;
+                    if (!b) return false;
+                    b.classList.add(theme + "-mode");
+                    return true;
+                };
+
+                // Try immediately
+                if (addBodyClass()) return;
+
+                // Observe until body exists
+                const mo = new MutationObserver(() => {
+                    if (addBodyClass()) mo.disconnect();
+                });
+                mo.observe(document.documentElement, { childList: true, subtree: true });
+            })();
+        })();
+    </script>
+    
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://hanxiaofan.site/2026/05/29/honglou-meng-ch90/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+        
+        <meta name="description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="红楼梦续书 第九十回 贾宝玉悬崖撒手去 白茫茫大地真干净">
+<meta property="og:url" content="https://hanxiaofan.site/2026/05/29/honglou-meng-ch90/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://hanxiaofan.site/images/redefine-og.webp">
+<meta property="article:published_time" content="2026-05-29T00:09:00.000Z">
+<meta property="article:modified_time" content="2026-05-29T14:19:46.811Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="AI推演">
+<meta property="article:tag" content="第90回">
+<meta property="article:tag" content="红楼梦">
+<meta property="article:tag" content="续书">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://hanxiaofan.site/images/redefine-og.webp">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/dog.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/dog.jpg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/dog.jpg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            红楼梦续书 第九十回 贾宝玉悬崖撒手去 白茫茫大地真干净 | 宇宙无敌史上最强韩小凡同学
+        
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    <!--- Inject Part-->
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    <!--- Font Part-->
+    
+    
+    
+        <link href="" rel="stylesheet">
+    
+    
+    
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"hanxiaofan.site","root":"/","language":"zh-CN","path":"search.json"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"delete_mask":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":false,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":false,"default":"cc_by_nc_sa"},"lazyload":true,"pangu_js":false,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":true,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":false,"percentage":false},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"side_tools":{"gear_rotation":true,"auto_expand":false},"open_graph":{"enable":true,"image":"/images/redefine-og.webp","description":"Hexo Theme Redefine, Redefine Your Hexo Journey."},"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/night.jpg","dark":"/images/night.jpg"},"title":"to be or not to be","subtitle":{"text":["每个不曾起舞的日子，都是对生命的辜负","我歌唱自己，我赞美自己"],"hitokoto":{"enable":true,"show_author":true,"api":"https://v1.hitokoto.cn/?c=k&c=i"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"style":"default","links":[{"icon":"fa-brands fa-github","url":null},{"icon":"fa-brands fa-twitter","url":null},{"icon":"fa-solid fa-at","url":"you@example.com"},{"icon":"fa-brands fa-telegram","url":null},{"icon":"/images/custom-icon.svg","url":null}],"qrs":[{"icon":"fa-brands fa-weixin","qr":null},{"icon":"/images/custom-icon.svg","qr":null}]}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":false,"version":"11.4.1","theme":{"light":"default","dark":"dark"}}},"version":"2.9.0","navbar":{"auto_hide":true,"color":{"left":"#ffffff","right":"#ffffff","transparency":90},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"归档":{"path":"/archives","icon":"fa-regular fa-archive"},"标签":{"path":"/tags","icon":"fa-regular fa-tags"},"分类":{"path":"/categories","icon":"fa-regular fa-folder"}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur","masonry":{"batch_size":12,"initial_batch_size":24}},"home":{"sidebar":{"enable":true,"position":"left","first_item":"info","announcement":null,"show_on_mobile":true,"links":{}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footer":{"runtime":true,"icon":"<i class=\"fa-solid fa-heart fa-beat\" style=\"--fa-animation-duration: 0.5s; color: #f54545\"></i>","start":"2026/3/6 11:45:14","statistics":true,"customize":"<img src=\"https://img.shields.io/badge/Status-Legendary-red\" alt=\"status\">","icp":{"enable":false,"number":null,"url":null}},"footerStart":"2026/3/6 11:45:14","mermaid":{"style":{"light":"default","dark":"dark"}}};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.i18n = {"search":"站内搜索您需要的内容...","toc":"目录","prev":"上一页","next":"下一页","prev_posts":"上一篇","next_posts":"下一篇","page":"第 %d 页","recent_posts":"最新文章","share":"分享","powered_by":"由 %s 驱动","theme":"主题","rss_feed":"RSS Feed","category":"分类","categories":"分类","tag":"标签","tags":"标签","post":"文章","posts":"文章","tagcloud":"标签云","comment":"评论","comments":"评论","top":"置顶","sticky":"置顶","go-back-home":"回到首页","masonry_loading":"照片加载中...","image_viewer":"图片查看器","close":"关闭","exif":{"title":"EXIF","cards":{"camera":"相机","lens":"镜头","exposure":"曝光","other":"其他"},"fields":{"make":"品牌","model":"机型","date_taken":"拍摄时间","lens_model":"镜头","focal_length":"焦距","focus_mode":"对焦模式","shutter":"快门","aperture":"光圈","iso":"感光度","exposure_program":"曝光程序","exposure_compensation":"曝光补偿","metering_mode":"测光模式","flash":"闪光灯","white_balance":"白平衡","latitude":"纬度","longitude":"经度","altitude":"海拔"},"status":{"loading":"加载中...","no_exif":"无 EXIF 信息","library_missing":"EXIF 库未加载","image_source_missing":"图片地址不可用","unavailable":"EXIF 不可用（可能被 CORS 阻止或缺少元数据）","flag_unavailable":"EXIF 不可用"}},"home":"首页","archive":"归档","archives":"归档","about":"关于","links":"链接","link":"链接","friends":"友情链接","friend":"友情链接","timeline":"时间轴","shuoshuo":"说说","bookmarks":"书签","site_uv":"访问人数","site_pv":"总访问量","read_more":"阅读全文","wordcount":"字","min2read":"分钟","changelog":"更新日志","status":"状态","runtime":"博客已运行","days":"天","hours":"小时","minutes":"分钟","seconds":"秒","optimized_by":"并由 Evan 进行优化","rights":"版权所有","site_posts":"共撰写了 %s 篇文章","site_wordcount":"共 %s 字","copyright":{"title":"标题","author":"作者","link":"链接","create_time":"创建于","update_time":"更新于","license_title":"版权声明","license_content":"本文章采用 %s 进行许可。","all_rights_reserved":"版权所有 &#169 %s，禁止转载。","public_domain":"本文为公有领域作品，可自由转载、引用。"},"ago":{"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"},"create_time":"创建","update_time":"更新","expired":"这篇文章最后更新于 %s 天前，内容可能已经过时。"};
+    window.data = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 8.1.1"></head>
+
+
+<body>
+	<div class="progress-bar-container">
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	<!--        <span class="swup-progress-icon">-->
+	<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+	<!--        </span>-->
+	
+</div>
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <div class="navbar-content transition-navbar ">
+        <div class="left">
+            
+                <a class="logo-image h-8 w-8 sm:w-10 sm:h-10 mr-3" href="/">
+                    <img src="/images/girl.jpg" class="w-full h-full rounded-xs">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                宇宙无敌史上最强韩小凡同学
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    首页
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/archives"
+                                        >
+                                    <i class="fa-regular fa-archive fa-fw"></i>
+                                    归档
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/tags"
+                                        >
+                                    <i class="fa-regular fa-tags fa-fw"></i>
+                                    标签
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/categories"
+                                        >
+                                    <i class="fa-regular fa-folder fa-fw"></i>
+                                    分类
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/archives"
+                        >
+                            <span>
+                                归档
+                            </span>
+                            
+                                <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/tags"
+                        >
+                            <span>
+                                标签
+                            </span>
+                            
+                                <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/categories"
+                        >
+                            <span>
+                                分类
+                            </span>
+                            
+                                <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+
+            
+            
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">33</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">9</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">56</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			<div class="w-full flex items-center pt-6 justify-start">
+				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">红楼梦续书 第九十回 贾宝玉悬崖撒手去 白茫茫大地真干净</h1>
+			</div>
+			
+		</div>
+
+		
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			<div class="avatar w-[46px] h-[46px] shrink-0 rounded-medium border border-border-color p-px">
+				<img src="/images/cat.jpg">
+			</div>
+			<div class="info flex flex-col justify-between">
+				<div class="author flex items-center">
+					<span class="name text-default-text-color text-lg font-semibold">史上最聪明的韩小凡！</span>
+					
+					<span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv4</span>
+					
+				</div>
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2026-05-29 08:09</span>
+        <span class="mobile">2026-05-29 08:09</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2026-05-29 22:19:46</span>
+            <span class="mobile">2026-05-29 22:19:46</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E7%BB%AD%E4%B9%A6/">红楼梦续书</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/">红楼梦</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E7%BB%AD%E4%B9%A6/">续书</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/AI%E6%8E%A8%E6%BC%94/">AI推演</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E7%AC%AC90%E5%9B%9E/">第90回</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>3.5k 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>11 分钟</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<p>抄家之后的日子，是散的。</p>
+<p>贾府的人被分到了各处——贾母和女眷暂住薛家，几个有门路的仆人自寻了出路，没有门路的被官府重新发卖，充入别府为奴。那些祖祖辈辈依附贾家的家生子儿们——赖大家的、林之孝家的、周瑞家的——一夜之间变成了一纸契书上的名字，从一个府邸流转到另一个府邸，像物件一样被清点、被估价、被领走。</p>
+<p>贾赦和贾琏仍被羁押在顺天府的大牢里。贾政在江西写完了乞休折子，正在等朝廷的批复——然而那批复迟迟不来。有时”迟迟不来”本身就是一种批复。</p>
+<span id="more"></span>
+
+<p>薛蟠的案子没有转机。秋后处决的日期已经定下来了。</p>
+<p>薛姨妈依旧躺在床上，一日里有大半晌是昏睡着的。宝钗每日煎药、喂粥、替母亲擦身。她的手从来没有停过。</p>
+<p>香菱在旁边默默地递药方、递热毛巾、递一切需要递的东西。她已经不怎么说话了——自从薛蟠被收监、夏金桂回了娘家，香菱便越来越安静。她活着——但那种”活着”，更像是”没有被允许死去”。</p>
+<p>而宝玉，依旧住在薛家那间偏僻的小屋里。</p>
+<p>他每日做的事情和抄家前没有太大区别：照常抄经（虽然那本被查封的《金刚经》已经拿不回来了，他便凭记忆默写），照常将黛玉的诗笺拿出来看一会儿再折好放回怀里，照常坐在门口看天黑。</p>
+<p>但有一件事变了。</p>
+<p>他开始走路。</p>
+<p>不是在大观园里走——大观园已经被封了。他是在薛家周围走。每日清晨出城，沿着护城河一直往西，走到太阳高了再回来。起初袭人不放心，让麝月远远地跟着。但宝玉只是走路——不快不慢，不看任何人，也不停下来。他走的路每次都是一样的：出城、过桥、沿着河岸、走到西山脚下、然后折返。</p>
+<p>他走了许多天，袭人渐渐也就不让人跟着了。他反正会回来的。他总是会回来的。</p>
+<p>这一日，宝玉去了一个地方。</p>
+<p>铁槛寺。</p>
+<p>贾府被抄之后，铁槛寺作为贾家家庙被一并查封了。但那些停灵的偏殿，官府懒得管——灵柩又不值钱。黛玉的灵柩还停在那里，和当日秦可卿的灵柩一样，在等待一个不知何时的归葬。</p>
+<p>宝玉在偏殿里坐了整整一个下午。</p>
+<p>没有人知道他在里面做了什么。守寺的老僧后来对人说，那个年轻人进去的时候两手空空，出来的时候也是两手空空。只是进去的时候眉头是皱着的，出来的时候松开了。</p>
+<p>“像是一个人把什么东西放下了。”老僧说。</p>
+<p>从铁槛寺回来之后，宝玉变了。</p>
+<p>他开始说话了。不是很多，但会主动跟人说话了。</p>
+<p>他跟袭人说：”你以后不必跟着我了。薛家这边有宝姐姐，她会安排好的。”</p>
+<p>他跟紫鹃说：”那些诗稿，你收好。将来若有机缘，印出来。”</p>
+<p>紫鹃问他：”印出来给谁看？”</p>
+<p>宝玉想了想，说：”给想看的人。”</p>
+<p>最后一件事，他做得很安静。</p>
+<p>这天夜里，宝玉将黛玉的诗笺从怀里拿出来——那张写着”偷来梨蕊三分白，借得梅花一缕魂”的纸。他用薛家厨房里剩下的一点浆糊，将诗笺贴在了他默写的那沓《金刚经》的封面上。</p>
+<p>诗在上，经在下，合在一起，像是一本书的书名和正文。</p>
+<p>他把这本书放在了宝钗的枕头下面。</p>
+<p>然后他出去了。</p>
+<p>这一次，他走的时候没有关门。袭人后来想，他以前每次出门都会把门带上的。但那一次没有。她当时没有在意——只是一个门没关而已。后来她回想起来，才意识到那不是”没关”，是”不打算回来了”。</p>
+<p>宝玉出了薛家的门，穿过那条熟悉得不能再熟悉的巷子，走到了荣国府的大门前。</p>
+<p>大门上贴着封条。封条上写着”待核”两个字。</p>
+<p>他没有停。</p>
+<p>他沿着荣国府的围墙走了一圈——那围墙他小时候爬过，被贾政骂过。他走过宁国府的侧门，走过大观园的后墙，走过那条通往潇湘馆的竹林小路。</p>
+<p>月光明亮，一切都看得很清楚。但他不看了。</p>
+<p>他走到了城门口。城门还没开——寅时初刻，天还是黑的，城门要卯时才开。他便靠着一棵老槐树坐下来，等天亮。</p>
+<p>天亮了。城门开了。</p>
+<p>宝玉站起来，拍了拍身上的土，走出了城门。</p>
+<p>没有人拦他。一个年轻的公子哥出城——也许是去郊游，也许是去上坟，也许是去走亲戚。守城的兵丁看了他一眼，便移开了目光。</p>
+<p>他出了城，过了护城河上的桥，沿着那条他这些日子每天走的路，继续往西走。</p>
+<p>走到西山脚下的时候，天已经全亮了。山坡上有薄薄的残雪，在晨光中泛着银灰色。他沿着山道往上走——这山道他这些日子从来没走过。他总是在山脚下折返。</p>
+<p>这一次，他没有折返。</p>
+<p>山坡上有一座破旧的古庙。庙门已经塌了半边，里面的佛像被风雨侵蚀得面目模糊。庙前的石阶上落满了枯叶和雪水。庙后的悬崖边，有一棵歪脖子老松，树根扎在崖壁上，树干悬在半空中，像一个即将坠落的问号。</p>
+<p>宝玉站在悬崖边，望着山下。</p>
+<p>山下是京城。灰蒙蒙的一大片，看不到荣国府，看不到大观园，看不到潇湘馆。那些他爱过的、哭过的、恨过的、抄过的——都在那里。只是太远了，什么都看不见了。</p>
+<p>日头升高了。山风将松枝吹得哗哗作响。</p>
+<p>宝玉站在那里，衣袂被风吹起来，猎猎作响。他在怀里摸了一下——那个放了诗笺的位置，空了。</p>
+<p>他将诗笺留在了经书上。将经书留在了宝钗的枕头下。将诗稿留给了紫鹃。将斗篷留在了潇湘馆。将灯笼留在了雪地里。</p>
+<p>将一切该留下的，都留下了。</p>
+<p>风声很大。松枝的影子在地上摇晃，像无数只手在鼓掌，又像无数只手在告别。</p>
+<p>宝玉最后看了一眼山下那座灰蒙蒙的城。</p>
+<p>然后，他转身走了。</p>
+<p>没有人知道他去了哪里。</p>
+<p>几日后，袭人在整理那间小屋时，发现桌上有一张纸——那是从《金刚经》上撕下来的最后一页。宝玉默写的经文停在了这一页的最后四句：</p>
+<p>“一切有为法，如梦幻泡影。如露亦如电，应作如是观。”</p>
+<p>在这四句经文的下面，有一行新添的字。是宝玉的笔迹，墨迹很新。</p>
+<p>那行字写的是——</p>
+<p>“我答应你的。”</p>
+<p>没有人知道这句话是对谁说的。紫鹃看了，没有说话。宝钗看了，也没有说话。</p>
+<p>只有袭人将那页纸叠好，收进了自己的袖子里。她站在那里，望着那间空了的屋子——桌上有抄过的经，床上有叠过的被，墙角放着一双穿旧了的鞋。</p>
+<p>只是人没了。</p>
+<p>那年冬天，又下了一场大雪。</p>
+<p>紫鹃带着黛玉的诗稿离开了京城。没有人知道她去了哪里。也许回了苏州——黛玉说过，苏州的柳树春天会发芽，嫩绿嫩绿的，很好看。</p>
+<p>探春在海南。史湘云嫁了。迎春死在孙家——上吊死的，死的时候才二十二岁。孙绍祖对外说是”暴病”。没有人追究。贾府已经没有人能替她追究了。</p>
+<p>惜春在馒头庵出了家。没有人觉得意外——从黛玉死的那一夜开始，她每晚都在念经。她出家的那天对来送她的宝钗说了一句话，也是她对这个世界说的最后一句话：</p>
+<p>“我看够了。”</p>
+<p>宝钗没有出家。她还在薛家，照顾母亲，照顾香菱。秋后的一天，薛蟠被处决了。宝钗去收了尸，一个人。她将薛蟠埋在薛家的祖坟里——那坟地本来也被查抄了，宝钗用仅剩的几件首饰换了一块小地方。</p>
+<p>她没有哭。从薛蟠出事到收尸下葬，她始终没有哭。只是那天夜里，她回到房中，看见香菱已经睡下了——蜷缩成一团，眉毛紧紧皱着，像是在梦里也在躲着什么东西。</p>
+<p>宝钗在床边站了很久。然后她做了一件她从来没有做过的事——她脱了外衣，躺在香菱旁边，从背后轻轻地抱住了她。</p>
+<p>香菱在梦里动了动，皱着的眉毛慢慢松开了。</p>
+<p>宝钗闭上了眼睛。</p>
+<p>她枕头下面，压着那本诗笺贴在封面上的《金刚经》。宝玉放在那里的。她知道那是给她的，她也知道那是什么意思。</p>
+<p>但她没有翻开。</p>
+<p>有些书，是用来保存的，不是用来看的。</p>
+<p>这一年冬月十五，贾母在薛家的客房里去世了。</p>
+<p>她走的时候很安静。鸳鸯守在她身边，听见她轻轻地叫了一个人的名字。鸳鸯凑近了听——那名字不是贾代善的，不是贾赦的，不是贾政的。</p>
+<p>是黛玉的。</p>
+<p>她叫的是”玉儿”。</p>
+<p>鸳鸯的眼泪终于落了下来。这是鸳鸯第一次为贾母流泪——不是因为忠，是因为她忽然听懂了：贾母这一生最后惦记的人，是那个她答应了自己的女儿要好好照顾、却没能做到的外孙女。</p>
+<p>贾母的丧事办得比黛玉的更简薄。没有银子了。连那最后一笔体己，也已经给了黛玉。</p>
+<p>好在贾政从江西赶回来了——他在接到贾母病危的消息后日夜兼程，但还是晚了三天。他跪在贾母灵前，跪了整整一夜，没有起来。</p>
+<p>次日天亮，贾政让人将荣国府正门上的封条撕了下来——封条早就过了期限，官府懒得来换新的。他走进空荡荡的荣国府，走过中堂、走过祠堂、走过那些曾经摆满了瓷器、字画、铜器的房间。那些房间现在是空的。不是”被搬走”的空——是”从骨骼里开始”的空。</p>
+<p>他走完了整座荣国府。然后他坐在中堂的石阶上，坐了许久。</p>
+<p>他最后看了一眼那块先皇御笔的匾额——“敕造荣国府”。</p>
+<p>匾额还在。只是下面的东西，已经空了。</p>
+<p>第二年春天，贾政被革职——乞休的折子终于批复了，但不是准他乞休，是革了他的职。罪名还是那四条。他不再是学政了，也不再是荣国府的贾政了。他只是一个头发全白了的老人，住在京城外一间租来的小院子里。</p>
+<p>那年春天来得晚。三月初三，又下了一场雪。</p>
+<p>这是一场小雪，薄薄地铺了一层，将京城染成了一片银白色。屋顶白的，街道白的，护城河上的冰还没化尽，也白的。远处的西山在雪雾中若隐若现，看上去也白的。</p>
+<p>白茫茫的。到处都白茫茫的。</p>
+<p>贾政坐在小院的屋檐下，看着这场春雪。他手里捏着一个旧茶盏——那是荣国府被抄之后，唯一一个被他带出来的物件。不值钱，是当年宝玉小时候打翻过的那个。盏沿上有一个豁口。</p>
+<p>他忽然想起很多年前，宝玉抓周的时候，抓了一支胭脂。他当时发了好大的脾气，骂宝玉将来必是个酒色之徒。后来宝玉果然不爱读八股，爱胭脂，爱诗词，爱在女孩子堆里混。</p>
+<p>但此刻，贾政忽然不确定了。他不确定宝玉抓的那支胭脂——是不是胭脂。</p>
+<p>也许是别的东西。也许是一支笔。也许是一朵花。</p>
+<p>也许是那件斗篷。也许是那句”外面下雪了”。也许是写在经书上的那行字。也许是潇湘馆竹林里那盏越走越远的灯笼。</p>
+<p>贾政不确了。他把玩着那个豁了口的茶盏——茶盏是空的。他看着漫天的春雪，想起了一件很久很久以前的事。</p>
+<p>那年宝玉六岁。下了一场大雪。宝玉穿着大红猩猩毡的斗篷，在雪地里堆雪人。后来雪停了，天晚了，宝玉不肯回屋。他站在雪地里仰着头，看那些还没有落下来的雪。</p>
+<p>“你站在雪地里看什么？”贾政问他。</p>
+<p>小宝玉回过头来，说——</p>
+<p>“我在看哪一片雪落得最慢。”</p>
+<p>窗外，雪还在下。那些雪落得快，又落得慢。有的雪还没落到地面，就化了。有的雪在地上打了个滚，又被风吹起来，飞到了天上。</p>
+<p>但无论落在哪里，它们最后都化成了水，渗进泥土里。</p>
+<p>白茫茫大地真干净。</p>
+<p>未知后事如何——</p>
+<p>后事便在各位看官的心里了。</p>
+<p>至此，《石头记》续书十回终。</p>
+
+		</div>
+
+		
+
+		
+		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/">#红楼梦</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E7%BB%AD%E4%B9%A6/">#续书</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/AI%E6%8E%A8%E6%BC%94/">#AI推演</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E7%AC%AC90%E5%9B%9E/">#第90回</a>&nbsp;
+			</li>
+			
+		</ul>
+		
+
+		
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/2026/05/29/agent3_historical_comparison/">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item truncate max-w-48">科技发展规律：AI与历史的对话</span>
+						<span class="post-nav-item">上一篇</span>
+					</span>
+				</a>
+			</div>
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/2026/05/29/honglou-meng-ch89/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item truncate max-w-48">红楼梦续书 第八十九回 荣国府一朝遭查抄 大观园从此寂无声</span>
+						<span class="post-nav-item">下一篇</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+	</div>
+
+	
+</div>
+
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+            <div class="customize-info my-1"><img src="https://img.shields.io/badge/Status-Legendary-red" alt="status"></div>
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2026</span>
+              -
+            
+            2026&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">史上最聪明的韩小凡！</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共撰写了 56 篇文章
+                    </span>
+                    
+                        <span>
+                            共 154.6k 字
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.9.0</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		<!-- TOC aside toggle -->
+		
+
+		<!-- go comment -->
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		<!-- rss -->
+		
+
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="fa-regular fa-arrow-up"></i>
+		</li>
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container" role="dialog" aria-modal="true" aria-label="图片查看器">
+	<button class="image-viewer-close" type="button" aria-label="关闭">
+		<i class="fa-solid fa-xmark"></i>
+	</button>
+	<button class="image-viewer-prev" type="button" aria-label="上一页">
+		<i class="fa-solid fa-chevron-left"></i>
+	</button>
+	<div class="image-viewer-frame">
+		<img src="" alt="">
+	</div>
+	<div class="image-viewer-exif-panel hidden absolute left-1/2 bottom-20 -translate-x-1/2 w-[min(92vw,420px)] max-h-[60vh] overflow-hidden rounded-2xl bg-background-color-transparent-80 p-4 text-left shadow-redefine-flat backdrop-blur-md" role="dialog" aria-label="EXIF" aria-hidden="true">
+		<div class="flex items-center justify-between mb-3">
+			<span class="text-sm font-semibold text-first-text-color">EXIF</span>
+			<button class="image-viewer-exif-close flex h-8 w-8 items-center justify-center rounded-full bg-background-color-transparent-80 text-first-text-color transition hover:bg-background-color-transparent-40" type="button" aria-label="关闭">
+				<i class="fa-solid fa-xmark text-[0.65rem]"></i>
+			</button>
+		</div>
+		<div class="image-viewer-exif-cards grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[50vh] overflow-y-auto pr-1 scrollbar-hide"></div>
+		<template class="image-viewer-exif-card-template">
+			<div class="rounded-lg bg-background-color-transparent-40 px-3 py-2">
+				<div class="image-viewer-exif-card-header flex items-center gap-2 mb-1">
+					<i class="image-viewer-exif-card-icon fa-solid fa-circle-info text-xs text-third-text-color"></i>
+					<div class="image-viewer-exif-card-title text-xs font-semibold text-first-text-color"></div>
+				</div>
+				<div class="image-viewer-exif-card-items flex flex-col gap-1"></div>
+			</div>
+		</template>
+	</div>
+	<button class="image-viewer-exif-toggle flex items-center gap-2 hidden absolute left-1/2 bottom-6 -translate-x-1/2 rounded-full border border-border-color bg-background-color-transparent-80 px-4 py-2 text-first-text-color backdrop-blur-md transition hover:bg-background-color-transparent-40" type="button" aria-label="EXIF" aria-expanded="false">
+		<i class="fa-solid fa-circle-info text-xs"></i>
+		<span class="text-xs font-semibold uppercase tracking-wider">EXIF</span>
+	</button>
+	<button class="image-viewer-next" type="button" aria-label="下一页">
+		<i class="fa-solid fa-chevron-right"></i>
+	</button>
+</div>
+
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="站内搜索您需要的内容..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>
+    window.swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+
+    window.dispatchEvent(
+        new CustomEvent("redefine:swup:ready", {
+            detail: {
+                swup: window.swup,
+            },
+        }),
+    );
+</script>
+
+
+
+
+	
+<script src="/js/build/main.js" type="module"></script>
+
+
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script=""></script>
+
+
+
+	
+</body>
+
+</html>
