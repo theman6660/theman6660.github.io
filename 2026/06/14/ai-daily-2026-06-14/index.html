@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="技术,编程,AI,个人博客">
+    
+    
+    <meta name="author" content="史上最聪明的韩小凡！">
+    
+    <!-- Completely eliminate flash of wrong theme -->
+    <script>
+        (function() {
+            const THEME_KEY = "REDEFINE-THEME-STATUS";
+            const DARK = "dark", LIGHT = "light";
+            
+            // Get preferred theme
+            function getTheme() {
+                try {
+                    const saved = localStorage.getItem(THEME_KEY);
+                    if (saved) {
+                        const { isDark } = JSON.parse(saved);
+                        return isDark ? DARK : LIGHT;
+                    }
+                } catch (e) {}
+                
+                return matchMedia("(prefers-color-scheme: dark)").matches ? DARK : LIGHT;
+            }
+            
+            // Apply theme to document
+            function applyTheme(theme) {
+                const isDark = theme === DARK;
+                const root = document.documentElement;
+                
+                // Set classes for compatibility
+                root.classList.add(theme);
+                root.classList.remove(isDark ? LIGHT : DARK);
+                root.style.colorScheme = theme;
+            }
+            
+            // Initial application
+            const theme = getTheme();
+            applyTheme(theme);
+            
+            // Listen for system preference changes
+            matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
+                // Only update if using system preference (no localStorage entry)
+                if (!localStorage.getItem(THEME_KEY)) {
+                    applyTheme(matches ? DARK : LIGHT);
+                }
+            });
+            
+            // Set body classes ASAP (before DOMContentLoaded)
+            (function() {
+                const addBodyClass = () => {
+                    const b = document.body;
+                    if (!b) return false;
+                    b.classList.add(theme + "-mode");
+                    return true;
+                };
+
+                // Try immediately
+                if (addBodyClass()) return;
+
+                // Observe until body exists
+                const mo = new MutationObserver(() => {
+                    if (addBodyClass()) mo.disconnect();
+                });
+                mo.observe(document.documentElement, { childList: true, subtree: true });
+            })();
+        })();
+    </script>
+    
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://hanxiaofan.site/2026/06/14/ai-daily-2026-06-14/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+        
+        <meta name="description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI行业日报 - 2026年6月14日">
+<meta property="og:url" content="https://hanxiaofan.site/2026/06/14/ai-daily-2026-06-14/index.html">
+<meta property="og:site_name" content="韩小凡的小站">
+<meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://hanxiaofan.site/images/redefine-og.webp">
+<meta property="article:published_time" content="2026-06-14T00:00:00.000Z">
+<meta property="article:modified_time" content="2026-06-14T04:27:35.453Z">
+<meta property="article:author" content="韩小凡">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="科技新闻">
+<meta property="article:tag" content="行业日报">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://hanxiaofan.site/images/redefine-og.webp">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/dog.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/dog.jpg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/dog.jpg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            AI行业日报 - 2026年6月14日 | 宇宙无敌史上最强韩小凡同学
+        
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    <!--- Inject Part-->
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    <!--- Font Part-->
+    
+    
+    
+        <link href="" rel="stylesheet">
+    
+    
+    
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"hanxiaofan.site","root":"/","language":"zh-CN","path":"search.json"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"delete_mask":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":false,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":false,"default":"cc_by_nc_sa"},"lazyload":true,"pangu_js":false,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":true,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":false,"percentage":false},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"side_tools":{"gear_rotation":true,"auto_expand":false},"open_graph":{"enable":true,"image":"/images/redefine-og.webp","description":"Hexo Theme Redefine, Redefine Your Hexo Journey."},"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/night.jpg","dark":"/images/night.jpg"},"title":"to be or not to be","subtitle":{"text":["每个不曾起舞的日子，都是对生命的辜负","我歌唱自己，我赞美自己"],"hitokoto":{"enable":true,"show_author":true,"api":"https://v1.hitokoto.cn/?c=k&c=i"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"style":"default","links":[{"icon":"fa-brands fa-github","url":null},{"icon":"fa-brands fa-twitter","url":null},{"icon":"fa-solid fa-at","url":"you@example.com"},{"icon":"fa-brands fa-telegram","url":null},{"icon":"/images/custom-icon.svg","url":null}],"qrs":[{"icon":"fa-brands fa-weixin","qr":null},{"icon":"/images/custom-icon.svg","qr":null}]}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":false,"version":"11.4.1","theme":{"light":"default","dark":"dark"}}},"version":"2.9.0","navbar":{"auto_hide":true,"color":{"left":"#ffffff","right":"#ffffff","transparency":90},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"归档":{"path":"/archives","icon":"fa-regular fa-archive"},"标签":{"path":"/tags","icon":"fa-regular fa-tags"},"分类":{"path":"/categories","icon":"fa-regular fa-folder"}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur","masonry":{"batch_size":12,"initial_batch_size":24}},"home":{"sidebar":{"enable":true,"position":"left","first_item":"info","announcement":null,"show_on_mobile":true,"links":{}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footer":{"runtime":true,"icon":"<i class=\"fa-solid fa-heart fa-beat\" style=\"--fa-animation-duration: 0.5s; color: #f54545\"></i>","start":"2026/3/6 11:45:14","statistics":true,"customize":"<img src=\"https://img.shields.io/badge/Status-Legendary-red\" alt=\"status\">","icp":{"enable":false,"number":null,"url":null}},"footerStart":"2026/3/6 11:45:14","mermaid":{"style":{"light":"default","dark":"dark"}}};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.i18n = {"search":"站内搜索您需要的内容...","toc":"目录","prev":"上一页","next":"下一页","prev_posts":"上一篇","next_posts":"下一篇","page":"第 %d 页","recent_posts":"最新文章","share":"分享","powered_by":"由 %s 驱动","theme":"主题","rss_feed":"RSS Feed","category":"分类","categories":"分类","tag":"标签","tags":"标签","post":"文章","posts":"文章","tagcloud":"标签云","comment":"评论","comments":"评论","top":"置顶","sticky":"置顶","go-back-home":"回到首页","masonry_loading":"照片加载中...","image_viewer":"图片查看器","close":"关闭","exif":{"title":"EXIF","cards":{"camera":"相机","lens":"镜头","exposure":"曝光","other":"其他"},"fields":{"make":"品牌","model":"机型","date_taken":"拍摄时间","lens_model":"镜头","focal_length":"焦距","focus_mode":"对焦模式","shutter":"快门","aperture":"光圈","iso":"感光度","exposure_program":"曝光程序","exposure_compensation":"曝光补偿","metering_mode":"测光模式","flash":"闪光灯","white_balance":"白平衡","latitude":"纬度","longitude":"经度","altitude":"海拔"},"status":{"loading":"加载中...","no_exif":"无 EXIF 信息","library_missing":"EXIF 库未加载","image_source_missing":"图片地址不可用","unavailable":"EXIF 不可用（可能被 CORS 阻止或缺少元数据）","flag_unavailable":"EXIF 不可用"}},"home":"首页","archive":"归档","archives":"归档","about":"关于","links":"链接","link":"链接","friends":"友情链接","friend":"友情链接","timeline":"时间轴","shuoshuo":"说说","bookmarks":"书签","site_uv":"访问人数","site_pv":"总访问量","read_more":"阅读全文","wordcount":"字","min2read":"分钟","changelog":"更新日志","status":"状态","runtime":"博客已运行","days":"天","hours":"小时","minutes":"分钟","seconds":"秒","optimized_by":"并由 Evan 进行优化","rights":"版权所有","site_posts":"共撰写了 %s 篇文章","site_wordcount":"共 %s 字","copyright":{"title":"标题","author":"作者","link":"链接","create_time":"创建于","update_time":"更新于","license_title":"版权声明","license_content":"本文章采用 %s 进行许可。","all_rights_reserved":"版权所有 &#169 %s，禁止转载。","public_domain":"本文为公有领域作品，可自由转载、引用。"},"ago":{"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"},"create_time":"创建","update_time":"更新","expired":"这篇文章最后更新于 %s 天前，内容可能已经过时。"};
+    window.data = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 8.1.1"></head>
+
+
+<body>
+	<div class="progress-bar-container">
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	<!--        <span class="swup-progress-icon">-->
+	<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+	<!--        </span>-->
+	
+</div>
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <div class="navbar-content transition-navbar ">
+        <div class="left">
+            
+                <a class="logo-image h-8 w-8 sm:w-10 sm:h-10 mr-3" href="/">
+                    <img src="/images/girl.jpg" class="w-full h-full rounded-xs">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                宇宙无敌史上最强韩小凡同学
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    首页
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/archives"
+                                        >
+                                    <i class="fa-regular fa-archive fa-fw"></i>
+                                    归档
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/tags"
+                                        >
+                                    <i class="fa-regular fa-tags fa-fw"></i>
+                                    标签
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/categories"
+                                        >
+                                    <i class="fa-regular fa-folder fa-fw"></i>
+                                    分类
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/archives"
+                        >
+                            <span>
+                                归档
+                            </span>
+                            
+                                <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/tags"
+                        >
+                            <span>
+                                标签
+                            </span>
+                            
+                                <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/categories"
+                        >
+                            <span>
+                                分类
+                            </span>
+                            
+                                <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+
+            
+            
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">50</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">10</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">99</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			<div class="w-full flex items-center pt-6 justify-start">
+				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">AI行业日报 - 2026年6月14日</h1>
+			</div>
+			
+		</div>
+
+		
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			<div class="avatar w-[46px] h-[46px] shrink-0 rounded-medium border border-border-color p-px">
+				<img src="/images/cat.jpg">
+			</div>
+			<div class="info flex flex-col justify-between">
+				<div class="author flex items-center">
+					<span class="name text-default-text-color text-lg font-semibold">史上最聪明的韩小凡！</span>
+					
+					<span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv5</span>
+					
+				</div>
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2026-06-14 08:00</span>
+        <span class="mobile">2026-06-14 08:00</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2026-06-14 12:27:35</span>
+            <span class="mobile">2026-06-14 12:27:35</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/AI%E6%97%A5%E6%8A%A5/">AI日报</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/AI/">AI</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/">行业日报</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/">科技新闻</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>4.8k 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>17 分钟</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<h2 id="今日要闻"><a href="#今日要闻" class="headerlink" title="今日要闻"></a>今日要闻</h2><p><strong>Anthropic遭美国政府强制切断全球模型访问：AI安全的里程碑事件</strong></p>
+<p>周五晚间，美国政府以国家安全为由，下令Anthropic必须阻断其Fable 5和Mythos 5两款模型对包括美国本土在内的所有外国用户的访问权限，甚至包括Anthropic自家员工。这一前所未有的举措立即引发行业震动。Anthropic在声明中表示，政府“未提供国家安全关切的任何具体细节”，仅口头提供了可能存在越狱漏洞的证据，而这些被发现的漏洞实际上非常微小，且在其他模型中也可能被找到。</p>
+<p>这则新闻的重要性超越了单一公司的合规行为。它标志着美国政府首次直接干预已部署商业AI模型的全球分发，意味着AI能力开始被纳入“关键基础设施”的保护范畴。更深层次的信号是，政府认为某些高级AI模型的安全风险已超出企业自我监管的能力边界，需要国家力量介入。这背后有Amazon CEO Andy Jassy的影子——据TechCrunch报道，Jassy可能正是引发政府关切的源头。这揭示出云服务商与AI公司之间日益紧张的关系：当一家公司同时是云计算提供商和AI投资方时，其对模型安全性的担忧足以触发国家级响应。</p>
+<p>此事对整个行业的影响将极为深远。短期内，所有前沿AI实验室都将被迫重新审视其模型发布策略和安全审计流程，预计会出现一波内部安全审查的浪潮。中期来看，这为全球AI治理提供了危险先例——如果美国可以单方面切断模型访问，其他国家也可能采取对等措施，全球AI生态系统可能面临分裂。更关键的是，投资人对AI公司的风险评估将加入“政府干预风险”这一全新维度，可能影响资本流向。</p>
+<p><strong>SpaceX上市首日暴涨：xAI成为最大影子推手</strong></p>
+<p>马斯克远程敲响上市钟声，穿着黄仁勋标志性的皮衣出现在庆祝现场。SpaceX上市首日仅4.2%股份进入流通，供不应求推动股价飙升，使其市销率超过112倍，远超特斯拉的15倍和英伟达的20倍。但招股书披露的结构性矛盾才是真正的故事：星链业务以113.9亿美元营收成为“现金牛”，火箭发射仍亏损6.57亿美元，而xAI及其太空算力计划则被明确标记为“烧钱黑洞”——SpaceX自2002年成立以来累计亏损已达413亿美元。</p>
+<p>这条新闻真正值得关注的是xAI在SpaceX上市叙事中扮演的角色。虽然xAI业务目前亏损严重，但它是SpaceX估值能被推至如此高位的关键想象空间——太空算力基础设施被视为下一代AI训练的潜在需求。市场显然在下注：当星链的网络覆盖与太空算力结合，可能创造出全新的AI基础设施范式。马斯克的皮衣选择意味深长：他要让投资人看到，一个横跨电动车、太空、AI的超级生态正在形成。</p>
+<p>对行业而言，SpaceX的估值逻辑将推高所有“AI+基础设施”公司的定价锚点。太空算力虽然短期内仍是概念，但吸引的资本将加速技术验证。更重要的是，马斯克成为人类首位万亿美金富豪这一符号性事件，将强化科技领袖个人品牌与公司估值之间的绑定，可能引发更多创始人刻意强化个人IP的商业策略。</p>
+<hr>
+<h2 id="商业动态"><a href="#商业动态" class="headerlink" title="商业动态"></a>商业动态</h2><p><strong>高瓴创投出手消费级柔性机器人，睡眠场景成为AI家庭健康新入口</strong></p>
+<p>SoulX完成数千万元天使轮融资，投资方为高瓴创投。这家专注于柔性机器人技术的公司选择了一个出人意料但高度聚焦的切入点：睡眠安抚。其首款产品MoYa计划2026年下半年发布，融合了机器人、神经科学与心理学，采用无摄像头设计，通过模拟拥抱实现触觉安抚与认知卸载的协同作用。</p>
+<p>这个案例揭示出消费机器人领域正在发生的范式转移。过去几年，AI硬件产品大多走两条路径：要么做纯粹的对话AI（如各类智能音箱），要么做功能性工具（如扫地机器人）。SoulX创始人郑潜捕捉到的是介于两者之间的“情感-生理”交叉地带。他的核心洞察是：睡眠障碍的本质不是环境问题，而是神经系统持续紧张——这是单纯的智能床垫或白噪音机无法解决的。MoYa的设计理念体现出对“在场感”的深思熟虑：去掉摄像头以保护隐私，用触觉而非语言作为主要交互方式，这实际上是在回避机器人在语言理解和情感对话上尚不成熟的技术短板，转而用生理层面的干预实现心理效果。</p>
+<p>从行业视角看，这笔投资反映出三个趋势：第一，机器人创业正从“技术噱头”转向寻找具体的健康需求切口；第二，AI硬件的真正壁垒可能不在于算法，而在于对人机交互物理形态的重新设计；第三，家庭场景下的情感健康正在被视为下一个价值洼地。如果MoYa能证明“触觉+”的产品逻辑成立，后续必将出现大量跟随者，引发一轮消费级柔性机器人创业潮。</p>
+<p><strong>Meta被迫放弃20亿美元Manus收购，地缘政治风险成为AI投资核心变量</strong></p>
+<p>据TechCrunch报道，Meta已开始拆除其20亿美元的Manus收购交易，原因是北京方面下令撤销这笔交易。这则简短的消息背后是巨大的地缘政治风暴。Manus作为中国AI团队的产品，其被Meta收购原本被视为全球AI人才流动和技术整合的典型案例，如今被迫解体，意味着AI领域正在形成更清晰的技术民族主义分界线。</p>
+<p>这对行业的杀伤力远超单一交易失败。首先，中国AI初创公司的退出路径被大幅收窄——如果卖给美国和卖给本土巨头都面临管制，投资人的信心将严重动摇。其次，全球AI公司的跨国合作和并购将进入“冷冻期”，任何涉及中美双方的交易都需要重新评估政治可行性。最后，这可能加速AI技术栈的平行分化：全球可能出现两个甚至多个相对独立的AI技术生态系统，各自发展互不兼容的标准和模型。</p>
+<p><strong>“宁王系”排队IPO，产业资本从主业协同走向生态扩张</strong></p>
+<p>宁德时代近期以41亿元入股中恒电气，加上对富临精工、赛力斯旗下赛豆科技、世纪互联等公司的投资，已形成明显的生态圈布局策略。与此相关的趋势是，越来越多产业龙头正通过CVC（企业风险投资）方式构建投资版图。</p>
+<p>虽然这条新闻看似与AI无关，但宁德时代的投资逻辑揭示了AI时代产业资本的深层转型。传统观点认为CVC应该聚焦主业上下游，但“宁王”的实践表明：当一个公司市值超过万亿后，其核心竞争力不再仅来自产品本身，而是来自围绕核心能力（电池、能源管理）构建的生态系统的AI化改造能力。赛豆科技（AI芯片）、世纪互联（数据中心）这些被投项目，实质上是在为未来“能源+算力”的融合铺设基础设施。</p>
+<p>Andrew Yang同期提出的观点与此不谋而合：他认为下一个创业金矿是“降低生活成本”，而降低生活成本的核心手段，恰恰在于通过AI和规模化运营重构衣食住行的供给效率。产业资本正在从纵向整合走向横向生态构建，AI是贯穿始终的纽带。</p>
+<hr>
+<h2 id="技术进展"><a href="#技术进展" class="headerlink" title="技术进展"></a>技术进展</h2><p><strong>Apple在iOS 27中首次内置AI照片编辑功能：大众用户的AI启蒙运动</strong></p>
+<p>iOS 27开发者测试版带来了三项AI照片编辑功能：Reframe（重构）、Extend（扩展）和Clean Up（清除）。The Verge上手体验后给出的评价是“大多有效，既好也坏”——相比Google Pixel已有的功能，Apple的实现还比较克制，但对iPhone用户而言，这意味着原生相册App首次允许AI对照片进行实质性修改。</p>
+<p>这个技术进展的重要性不在功能本身，而在于它触达的用户基数。iPhone是全球使用人数最多的相机，当AI编辑功能从第三方App下沉到系统原生体验，数亿用户将在不经学习的情况下完成AI能力启蒙。这意味着公众对AI生成内容的认知和接受度将在未来12个月内发生质变——从“我听说AI可以修图”变成“我刚才用AI修了图”。</p>
+<p>更深层的冲击在认知层面。The Verge记者写道：“我指的是照片，我是说记忆，我不知道了。”这恰好点出了AI照片编辑带来的本体论困扰：当一张照片可以无限次地被AI重构、扩展、清理，它还是原来的那个“决定性瞬间”吗？Apple选择在相对克制的范围内推出这些功能，说明它深知这个问题对用户信任的威胁。但窗口已经打开，后续版本的功能扩张将不可避免地把更多用户推入“真实感危机”。</p>
+<p><strong>HuggingFace CEO力荐的1B参数HRM模型：小模型的逆袭路径</strong></p>
+<p>Bengio团队参与、仅1500美元训练成本、参数量只有1B的HRM模型，获得了HuggingFace CEO的公开推荐，在社交平台上引发关注。虽然量子位的报道细节有限，但这反映出AI社区正在认真思考一个问题：大模型的能力天花板是否意味着小模型的机会窗口重新打开？</p>
+<p>HuggingFace作为开源AI社区的核心平台，其CEO的背书具有放大器效应。这个事件传递的信号是：当巨头们争抢万卡集群训练万亿参数模型时，高效参数利用、特定任务优化的小模型路线可能产生被低估的商业价值。1500美元的训练成本意味着，创业公司甚至个人研究者仍然有创新的空间，AI能力并未完全集中在少数几家拥有巨额算力预算的机构手中。</p>
+<p><strong>好莱坞与定制AI模型的共生实验</strong></p>
+<p>Tribeca电影节2026上展映的《Dear Upstairs Neighbors》，使用了由Google Veo和Imagen模型定制的版本生成概念艺术。The Verge指出，虽然AI视频模型目前仍只能生成短视频片段，但这种“用自家数据定制商AI模型”的模式正在成为一种新的制片流程。</p>
+<p>这个进展的意义在于，它提供了一种比“输入提示词生成内容”更务实、更可控的AI辅助创作路径。定制化训练意味着创作者可以将AI适配到自己的美学体系中，而非被动接受通用模型的输出风格。这可能是AI融入专业创作的正道。</p>
+<hr>
+<h2 id="政策与监管"><a href="#政策与监管" class="headerlink" title="政策与监管"></a>政策与监管</h2><p><strong>OpenAI面临全美多州总检察长联合调查，AI公司合规成本将飙升</strong></p>
+<p>虽然具体涉及哪些州尚不明确，但调查范围之广令人侧目：从广告政策到健康数据处理，几乎覆盖OpenAI业务的方方面面。这是继欧洲GDPR执法之后，美国方面对AI公司发起的最广泛监管行动。调查的触发点虽未公布，但选择在Anthropic被政府切断模型访问的同一周集中曝光，时间上的巧合暗示这可能是美国监管机构对AI行业的一次协同施压。</p>
+<p>这次调查将为AI行业树立合规标杆。第一，AI公司的广告宣称将被严格审视，任何关于模型能力、安全性、隐私保护的公开声明都必须有据可查——这正好回应了KPMG因AI幻觉而撤回报告的事件。第二，健康数据的处理将成为监管的重中之重，所有涉足健康赛道的AI公司都必须建立独立的数据治理架构。第三，多州联合行动意味着AI公司可能面临碎片化的合规要求，不同州可能提出不同标准，极大地增加合规成本。</p>
+<p>对行业的影响是立竿见影的：未来6个月，所有拿到融资的AI初创公司都需要预留10-15%的资金用于合规建设；投资人做尽调时，将把“监管风险敞口”作为与“技术壁垒”同等级别的评估维度；中型AI公司可能被迫推迟产品发布时间，以完成合规准备。</p>
+<p><strong>KPMG撤回AI使用报告：AI谈论AI时的自我指涉幻觉困境</strong></p>
+<p>KPMG（毕马威）因发现其发布的AI使用报告存在明显幻觉错误而将其撤回。事件本身看似是个小插曲，但TechCrunch精准地提炼出了其讽刺核心：“AI再次证明自己是关于AI话题的不可靠信息来源”。</p>
+<p>这暴露了当前AI应用中的一个结构性缺陷：当AI被用于分析和生成关于AI行业本身的内容时，容易出现“自我指涉幻觉”——因为训练数据中存在大量关于AI的夸张宣传和相互引用的非事实信息，模型在生成类似内容时倾向于重复而非核实这些信息。对行业而言，这意味着AI在金融分析、行业研究、政策咨询等需要高度事实准确的场景中的应用，需要更严格的人类监督机制。KPMG的撤回动作也表明，专业服务机构开始认真对待AI输出的质量控制问题，这可能促使一套AI审计标准的出现。</p>
+<hr>
+<h2 id="影响分析"><a href="#影响分析" class="headerlink" title="影响分析"></a>影响分析</h2><p>综合本周多条新闻线索，可以勾勒出未来6-12个月AI行业演进的三条主线。</p>
+<p><strong>第一，地缘政治正在将全球AI生态撕裂成两个平行系统。</strong> Anthropic被政府强制切断模型访问、Meta被迫放弃Manus收购、多州总检察长调查OpenAI，这三件事指向同一个趋势：AI能力正在被视为国家战略资产而非商业产品。这种认知的固化将导致全球AI人才、资本、技术标准沿着地缘政治分界线重新配置。对于中国AI公司而言，出海路径需要重新设计——不能简单依赖与美国云服务商或模型提供商的合作，建立自主可控的技术栈和合作伙伴网络成为必选项。对于在华运营的美国AI公司，合规要求将指数级增长，可能导致部分业务收缩或本地化重组。</p>
+<p><strong>第二，AI硬件正在寻找“情感-生理”的交叉创新地带。</strong> SoulX的睡眠安抚机器人、Apple的AI照片编辑功能，表面看是两个独立事件，但内在逻辑一致：都在试图将技术创新嵌入日常生活中的情感和生理需求场景。这表明AI行业正在从“能力展示”阶段进入“需求适配”阶段。下一波成功的AI产品可能不是技术最强的，而是对人机关系设计理解最深的。柔性机器人、情感计算、触觉交互这些领域，可能成为继大语言模型之后的下一个创新热点。</p>
+<p><strong>第三，产业资本与AI的融合正在催生新的估值逻辑。</strong> SpaceX将太空算力作为上市讲故事的核心，宁德时代用CVC编织能源-算力生态网，Andrew Yang看准“降低生活成本”的创业机遇。这三点共同指向：AI的竞争不再是模型本身的竞争，而是谁能够将AI能力与实体经济基础设施深度融合，创造出系统性降低成本的解决方案。投资人将越来越青睐那些“不是AI公司，但用AI重构成本结构”的企业，这可能会导致资金从部分“纯AI”项目流向应用场景更确定的“AI+”项目。</p>
+<p>这三个趋势的叠加效应值得警惕：技术民族主义推高合规成本，情感硬件创新面临伦理审查，估值逻辑重构引发资本过热——AI行业正从技术驱动的青春期进入制度博弈的成年期，这场博弈的结果将决定AI究竟是成为普惠工具还是加剧割裂。</p>
+<h2 id="参考来源"><a href="#参考来源" class="headerlink" title="参考来源"></a>参考来源</h2><ul>
+<li>[36氪] <a class="link"   target="_blank" rel="noopener" href="https://36kr.com/p/3851572421432324?f=rss" >高瓴出手了一家消费级柔性机器人公司，要把“大白”从电影搬进现实家庭｜硬氪首发<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[TechCrunch] <a class="link"   target="_blank" rel="noopener" href="https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/" >Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[TechCrunch] <a class="link"   target="_blank" rel="noopener" href="https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/" >KPMG pulls report on AI usage due to apparent hallucinations<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[TechCrunch] <a class="link"   target="_blank" rel="noopener" href="https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/" >Amazon CEO reportedly raised Anthropic model concerns before government crackdown<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[TechCrunch] <a class="link"   target="_blank" rel="noopener" href="https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/" >OpenAI faces investigation from state attorneys general<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Verge] <a class="link"   target="_blank" rel="noopener" href="https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing" >My yard is dying, so I made an app for that<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Verge] <a class="link"   target="_blank" rel="noopener" href="https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security" >Anthropic cuts off Fable 5 and Mythos 5 access following government order<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[量子位] <a class="link"   target="_blank" rel="noopener" href="https://www.qbitai.com/2026/06/435483.html" >HuggingFace CEO力荐，Bengio团队也押注：这个1500美元训出的HRM模型，凭什么火了？<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[36氪] <a class="link"   target="_blank" rel="noopener" href="https://36kr.com/newsflashes/3851534097896712?f=rss" >SpaceX业务呈现“一极盈利、两极亏损”格局<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[36氪] <a class="link"   target="_blank" rel="noopener" href="https://36kr.com/newsflashes/3851524397536515?f=rss" >鲸鸿动能系统拆解“主动式营销”框架，助广告主实现确定性增长<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Verge] <a class="link"   target="_blank" rel="noopener" href="https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on" >Apple’s new AI photo editing tools mostly work, for better and worse<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Verge] <a class="link"   target="_blank" rel="noopener" href="https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai" >The future of Hollywood isn’t feeding prompts into vanilla gen AI models <i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[量子位] <a class="link"   target="_blank" rel="noopener" href="https://www.qbitai.com/2026/06/435455.html" >Agent终于长出了身体：Jiuwen Symbiosis背后的思考与实践<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[36氪] <a class="link"   target="_blank" rel="noopener" href="https://36kr.com/p/3846972367866119?f=rss" >36氪研究院 | AI时代留学就业白皮书：中国留学生全球就业趋势与人才价值重塑<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[量子位] <a class="link"   target="_blank" rel="noopener" href="https://www.qbitai.com/2026/06/435394.html" >2026智源大会开幕：推动AI、物理世界和生命科学“三体互动”<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[36氪] <a class="link"   target="_blank" rel="noopener" href="https://36kr.com/p/3851106394117383?f=rss" >“宁王系”，排队 IPO<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[TechCrunch] <a class="link"   target="_blank" rel="noopener" href="https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/" >Andrew Yang thinks the next big startup opportunity is lowering the cost of living<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[量子位] <a class="link"   target="_blank" rel="noopener" href="https://www.qbitai.com/2026/06/435339.html" >马斯克远程敲钟穿了老黄的皮衣！SpaceX员工集体穿上绿鞋<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[少数派] <a class="link"   target="_blank" rel="noopener" href="https://sspai.com/post/110973" >具透 | 除了 AI，iOS 27 首个开发者测试版中你不能错过的新功能<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+</ul>
+
+		</div>
+
+		
+
+		
+		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/AI/">#AI</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/">#行业日报</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/">#科技新闻</a>&nbsp;
+			</li>
+			
+		</ul>
+		
+
+		
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/2026/06/14/society-daily-2026-06-14/">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item truncate max-w-48">社会思想日报 - 2026年6月14日</span>
+						<span class="post-nav-item">上一篇</span>
+					</span>
+				</a>
+			</div>
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/2026/06/13/society-daily-2026-06-13/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item truncate max-w-48">社会思想日报 - 2026年6月13日</span>
+						<span class="post-nav-item">下一篇</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+	</div>
+
+	
+</div>
+
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+            <div class="customize-info my-1"><img src="https://img.shields.io/badge/Status-Legendary-red" alt="status"></div>
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2026</span>
+              -
+            
+            2026&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">史上最聪明的韩小凡！</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共撰写了 99 篇文章
+                    </span>
+                    
+                        <span>
+                            共 305.7k 字
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.9.0</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		<!-- TOC aside toggle -->
+		
+
+		<!-- go comment -->
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		<!-- rss -->
+		
+
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="fa-regular fa-arrow-up"></i>
+		</li>
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container" role="dialog" aria-modal="true" aria-label="图片查看器">
+	<button class="image-viewer-close" type="button" aria-label="关闭">
+		<i class="fa-solid fa-xmark"></i>
+	</button>
+	<button class="image-viewer-prev" type="button" aria-label="上一页">
+		<i class="fa-solid fa-chevron-left"></i>
+	</button>
+	<div class="image-viewer-frame">
+		<img src="" alt="">
+	</div>
+	<div class="image-viewer-exif-panel hidden absolute left-1/2 bottom-20 -translate-x-1/2 w-[min(92vw,420px)] max-h-[60vh] overflow-hidden rounded-2xl bg-background-color-transparent-80 p-4 text-left shadow-redefine-flat backdrop-blur-md" role="dialog" aria-label="EXIF" aria-hidden="true">
+		<div class="flex items-center justify-between mb-3">
+			<span class="text-sm font-semibold text-first-text-color">EXIF</span>
+			<button class="image-viewer-exif-close flex h-8 w-8 items-center justify-center rounded-full bg-background-color-transparent-80 text-first-text-color transition hover:bg-background-color-transparent-40" type="button" aria-label="关闭">
+				<i class="fa-solid fa-xmark text-[0.65rem]"></i>
+			</button>
+		</div>
+		<div class="image-viewer-exif-cards grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[50vh] overflow-y-auto pr-1 scrollbar-hide"></div>
+		<template class="image-viewer-exif-card-template">
+			<div class="rounded-lg bg-background-color-transparent-40 px-3 py-2">
+				<div class="image-viewer-exif-card-header flex items-center gap-2 mb-1">
+					<i class="image-viewer-exif-card-icon fa-solid fa-circle-info text-xs text-third-text-color"></i>
+					<div class="image-viewer-exif-card-title text-xs font-semibold text-first-text-color"></div>
+				</div>
+				<div class="image-viewer-exif-card-items flex flex-col gap-1"></div>
+			</div>
+		</template>
+	</div>
+	<button class="image-viewer-exif-toggle flex items-center gap-2 hidden absolute left-1/2 bottom-6 -translate-x-1/2 rounded-full border border-border-color bg-background-color-transparent-80 px-4 py-2 text-first-text-color backdrop-blur-md transition hover:bg-background-color-transparent-40" type="button" aria-label="EXIF" aria-expanded="false">
+		<i class="fa-solid fa-circle-info text-xs"></i>
+		<span class="text-xs font-semibold uppercase tracking-wider">EXIF</span>
+	</button>
+	<button class="image-viewer-next" type="button" aria-label="下一页">
+		<i class="fa-solid fa-chevron-right"></i>
+	</button>
+</div>
+
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="站内搜索您需要的内容..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>
+    window.swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+
+    window.dispatchEvent(
+        new CustomEvent("redefine:swup:ready", {
+            detail: {
+                swup: window.swup,
+            },
+        }),
+    );
+</script>
+
+
+
+
+	
+<script src="/js/build/main.js" type="module"></script>
+
+
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script=""></script>
+
+
+
+	
+</body>
+
+</html>
