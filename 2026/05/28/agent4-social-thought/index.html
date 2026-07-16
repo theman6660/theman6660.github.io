@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="技术,编程,AI,个人博客">
+    
+    
+    <meta name="author" content="史上最聪明的韩小凡！">
+    
+    <!-- Completely eliminate flash of wrong theme -->
+    <script>
+        (function() {
+            const THEME_KEY = "REDEFINE-THEME-STATUS";
+            const DARK = "dark", LIGHT = "light";
+            
+            // Get preferred theme
+            function getTheme() {
+                try {
+                    const saved = localStorage.getItem(THEME_KEY);
+                    if (saved) {
+                        const { isDark } = JSON.parse(saved);
+                        return isDark ? DARK : LIGHT;
+                    }
+                } catch (e) {}
+                
+                return matchMedia("(prefers-color-scheme: dark)").matches ? DARK : LIGHT;
+            }
+            
+            // Apply theme to document
+            function applyTheme(theme) {
+                const isDark = theme === DARK;
+                const root = document.documentElement;
+                
+                // Set classes for compatibility
+                root.classList.add(theme);
+                root.classList.remove(isDark ? LIGHT : DARK);
+                root.style.colorScheme = theme;
+            }
+            
+            // Initial application
+            const theme = getTheme();
+            applyTheme(theme);
+            
+            // Listen for system preference changes
+            matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
+                // Only update if using system preference (no localStorage entry)
+                if (!localStorage.getItem(THEME_KEY)) {
+                    applyTheme(matches ? DARK : LIGHT);
+                }
+            });
+            
+            // Set body classes ASAP (before DOMContentLoaded)
+            (function() {
+                const addBodyClass = () => {
+                    const b = document.body;
+                    if (!b) return false;
+                    b.classList.add(theme + "-mode");
+                    return true;
+                };
+
+                // Try immediately
+                if (addBodyClass()) return;
+
+                // Observe until body exists
+                const mo = new MutationObserver(() => {
+                    if (addBodyClass()) mo.disconnect();
+                });
+                mo.observe(document.documentElement, { childList: true, subtree: true });
+            })();
+        })();
+    </script>
+    
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://hanxiaofan.site/2026/05/28/agent4-social-thought/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+        
+        <meta name="description" content="韩小凡的个人网站：AI、技术实验、阅读写作与对时代生活的观察。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="社会思想与公众心态演变：AI快速崛起下的三年人心之变">
+<meta property="og:url" content="https://hanxiaofan.site/2026/05/28/agent4-social-thought/index.html">
+<meta property="og:site_name" content="韩小凡的小站">
+<meta property="og:description" content="韩小凡的个人网站：AI、技术实验、阅读写作与对时代生活的观察。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://hanxiaofan.site/images/og-cover.jpg">
+<meta property="article:published_time" content="2026-05-28T16:00:00.000Z">
+<meta property="article:author" content="韩小凡">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="公众态度">
+<meta property="article:tag" content="研究报告">
+<meta property="article:tag" content="社会心理">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://hanxiaofan.site/images/og-cover.jpg">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/dog.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/dog.jpg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/dog.jpg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            社会思想与公众心态演变：AI快速崛起下的三年人心之变 | 宇宙无敌史上最强韩小凡同学
+        
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    <!--- Inject Part-->
+    
+        
+            
+    
+            
+    
+            
+                
+                    <link rel="stylesheet" href="/css/accessibility.css">
+                
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    <!--- Font Part-->
+    
+    
+    
+        <link href="" rel="stylesheet">
+    
+    
+    
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"hanxiaofan.site","root":"/","language":"zh-CN","path":"search.json"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"delete_mask":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":false},"copyright":{"enable":false,"default":"cc_by_nc_sa"},"lazyload":true,"pangu_js":false,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":true,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":false,"percentage":false},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"side_tools":{"gear_rotation":true,"auto_expand":false},"open_graph":{"enable":true,"image":"/images/og-cover.jpg","description":"韩小凡的个人网站：AI、技术实验、阅读写作与对时代生活的观察。"},"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/night.jpg","dark":"/images/night.jpg"},"title":"to be or not to be","subtitle":{"text":["每个不曾起舞的日子，都是对生命的辜负","我歌唱自己，我赞美自己"],"hitokoto":{"enable":true,"show_author":true,"api":"https://v1.hitokoto.cn/?c=k&c=i"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"style":"default","links":[{"icon":"fa-brands fa-github","url":null},{"icon":"fa-brands fa-twitter","url":null},{"icon":"fa-solid fa-at","url":"you@example.com"},{"icon":"fa-brands fa-telegram","url":null},{"icon":"/images/custom-icon.svg","url":null}],"qrs":[{"icon":"fa-brands fa-weixin","qr":null},{"icon":"/images/custom-icon.svg","qr":null}]}},"plugins":{"feed":{"enable":true},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":false,"version":"11.4.1","theme":{"light":"default","dark":"dark"}}},"version":"2.9.0","navbar":{"auto_hide":true,"color":{"left":"#ffffff","right":"#ffffff","transparency":90},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"归档":{"path":"/archives","icon":"fa-regular fa-archive"},"标签":{"path":"/tags","icon":"fa-regular fa-tags"},"分类":{"path":"/categories","icon":"fa-regular fa-folder"},"日报":{"icon":"fa-regular fa-newspaper","submenus":{"AI行业日报":"/categories/AI日报/","社会思想日报":"/categories/社会日报/"}}},"search":{"enable":true,"preload":false}},"page_templates":{"friends_column":2,"tags_style":"blur","masonry":{"batch_size":12,"initial_batch_size":24}},"home":{"sidebar":{"enable":true,"position":"left","first_item":"info","announcement":"首页优先展示个人精选；每日自动更新请从「日报」导航进入。","show_on_mobile":true,"links":{}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footer":{"runtime":true,"icon":"<i class=\"fa-solid fa-heart fa-beat\" style=\"--fa-animation-duration: 0.5s; color: #f54545\"></i>","start":"2026/3/6 11:45:14","statistics":true,"customize":"<img src=\"https://img.shields.io/badge/Status-Legendary-red\" alt=\"status\">","icp":{"enable":false,"number":null,"url":null}},"footerStart":"2026/3/6 11:45:14","mermaid":{"style":{"light":"default","dark":"dark"}}};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.i18n = {"search":"站内搜索您需要的内容...","toc":"目录","prev":"上一页","next":"下一页","prev_posts":"上一篇","next_posts":"下一篇","page":"第 %d 页","recent_posts":"最新文章","share":"分享","powered_by":"由 %s 驱动","theme":"主题","rss_feed":"RSS Feed","category":"分类","categories":"分类","tag":"标签","tags":"标签","post":"文章","posts":"文章","tagcloud":"标签云","comment":"评论","comments":"评论","top":"置顶","sticky":"置顶","go-back-home":"回到首页","masonry_loading":"照片加载中...","image_viewer":"图片查看器","close":"关闭","exif":{"title":"EXIF","cards":{"camera":"相机","lens":"镜头","exposure":"曝光","other":"其他"},"fields":{"make":"品牌","model":"机型","date_taken":"拍摄时间","lens_model":"镜头","focal_length":"焦距","focus_mode":"对焦模式","shutter":"快门","aperture":"光圈","iso":"感光度","exposure_program":"曝光程序","exposure_compensation":"曝光补偿","metering_mode":"测光模式","flash":"闪光灯","white_balance":"白平衡","latitude":"纬度","longitude":"经度","altitude":"海拔"},"status":{"loading":"加载中...","no_exif":"无 EXIF 信息","library_missing":"EXIF 库未加载","image_source_missing":"图片地址不可用","unavailable":"EXIF 不可用（可能被 CORS 阻止或缺少元数据）","flag_unavailable":"EXIF 不可用"}},"home":"首页","archive":"归档","archives":"归档","about":"关于","links":"链接","link":"链接","friends":"友情链接","friend":"友情链接","timeline":"时间轴","shuoshuo":"说说","bookmarks":"书签","site_uv":"访问人数","site_pv":"总访问量","read_more":"阅读全文","wordcount":"字","min2read":"分钟","changelog":"更新日志","status":"状态","runtime":"博客已运行","days":"天","hours":"小时","minutes":"分钟","seconds":"秒","optimized_by":"并由 Evan 进行优化","rights":"版权所有","site_posts":"共撰写了 %s 篇文章","site_wordcount":"共 %s 字","copyright":{"title":"标题","author":"作者","link":"链接","create_time":"创建于","update_time":"更新于","license_title":"版权声明","license_content":"本文章采用 %s 进行许可。","all_rights_reserved":"版权所有 &#169 %s，禁止转载。","public_domain":"本文为公有领域作品，可自由转载、引用。"},"ago":{"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"},"create_time":"创建","update_time":"更新","expired":"这篇文章最后更新于 %s 天前，内容可能已经过时。"};
+    window.data = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="韩小凡的小站" type="application/atom+xml">
+</head>
+
+
+<body>
+	<div class="progress-bar-container">
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	<!--        <span class="swup-progress-icon">-->
+	<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+	<!--        </span>-->
+	
+</div>
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <div class="navbar-content transition-navbar ">
+        <div class="left">
+            
+                <a class="logo-image h-8 w-8 sm:w-10 sm:h-10 mr-3" href="/">
+                    <img src="/images/girl.jpg" class="w-full h-full rounded-xs">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                宇宙无敌史上最强韩小凡同学
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    首页
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/archives"
+                                        >
+                                    <i class="fa-regular fa-archive fa-fw"></i>
+                                    归档
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/tags"
+                                        >
+                                    <i class="fa-regular fa-tags fa-fw"></i>
+                                    标签
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/categories"
+                                        >
+                                    <i class="fa-regular fa-folder fa-fw"></i>
+                                    分类
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-regular fa-newspaper fa-fw"></i>
+                                    日报
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/categories/AI%E6%97%A5%E6%8A%A5/">
+                                                    AI行业日报
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/">
+                                                    社会思想日报
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/archives"
+                        >
+                            <span>
+                                归档
+                            </span>
+                            
+                                <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/tags"
+                        >
+                            <span>
+                                标签
+                            </span>
+                            
+                                <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/categories"
+                        >
+                            <span>
+                                分类
+                            </span>
+                            
+                                <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-日报"
+                        >
+                            <span>
+                                日报
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-日报">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/AI%E6%97%A5%E6%8A%A5/">AI行业日报</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/">社会思想日报</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">59</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">11</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">156</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			<div class="w-full flex items-center pt-6 justify-start">
+				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">社会思想与公众心态演变：AI快速崛起下的三年人心之变</h1>
+			</div>
+			
+		</div>
+
+		
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			<div class="avatar w-[46px] h-[46px] shrink-0 rounded-medium border border-border-color p-px">
+				<img src="/images/cat.jpg">
+			</div>
+			<div class="info flex flex-col justify-between">
+				<div class="author flex items-center">
+					<span class="name text-default-text-color text-lg font-semibold">史上最聪明的韩小凡！</span>
+					
+					<span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv6</span>
+					
+				</div>
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2026-05-29</span>
+        <span class="mobile">2026-05-29</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E7%A0%94%E7%A9%B6/">研究</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/AI/">AI</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/">社会心理</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E5%85%AC%E4%BC%97%E6%80%81%E5%BA%A6/">公众态度</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A/">研究报告</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>3.1k 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>11 分钟</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<h2 id="结论摘要"><a href="#结论摘要" class="headerlink" title="结论摘要"></a>结论摘要</h2><p>从2022年末ChatGPT横空出世到2026年，公众对AI的心态经历了一条清晰的”过山车曲线”：好奇狂欢、焦虑恐慌、两极分化、实用主义接纳、深度反思。全球调查显示，忧虑情绪始终在高位徘徊（约50%美国人持续担忧），而使用率却从38%飙升至62%，这种”行为与心态的脱钩”是理解当代社会心理的关键。更深层的变革在于：争议焦点已从”AI会不会取代我”转向”AI正在如何改变我思考的方式”。</p>
+
+
+<hr>
+<h2 id="阶段一：好奇与实验（2022末-2023初）"><a href="#阶段一：好奇与实验（2022末-2023初）" class="headerlink" title="阶段一：好奇与实验（2022末 - 2023初）"></a>阶段一：好奇与实验（2022末 - 2023初）</h2><h3 id="“史上最快增长的消费品”"><a href="#“史上最快增长的消费品”" class="headerlink" title="“史上最快增长的消费品”"></a>“史上最快增长的消费品”</h3><p>2022年11月30日，OpenAI以”研究预览”名义发布ChatGPT。上线5天突破100万用户，两个月后月活突破1亿。作为对比，TikTok到1亿用了9个月，Instagram用了30个月。一位瑞银分析师称其为”史上增长最快的消费应用”。</p>
+<p>但数据的真正意义在传播学：1亿人在两个月内亲自”试用”了一个新技术。AI从实验室走进了日常生活，不是通过新闻，而是通过每个人的手指点击。一位北京的大学生回忆：”那天室友说有个东西能帮我写论文作业，我以为是玩笑，试完吓到了。”</p>
+<h3 id="实用主义驱动"><a href="#实用主义驱动" class="headerlink" title="实用主义驱动"></a>实用主义驱动</h3><p>早期用户的心态很直白——这东西能帮我省事。社交媒体上充斥着”ChatGPT帮我写周报””让AI写情书”的内容。GWI数据显示，早期用户中34.44%年龄25-34岁，59.7%为男性，科技行业占比27.8%。</p>
+<p>一个重要心理特征是：早期用户不把ChatGPT视为”智能体”，而是工具——和搜索引擎没有本质区别。这种”工具化认知”是理解后续心态变化的基础。</p>
+<h3 id="AI艺术入侵"><a href="#AI艺术入侵" class="headerlink" title="AI艺术入侵"></a>AI艺术入侵</h3><p>同一时期，Midjourney和Stable Diffusion掀起了AI艺术风潮。2022年9月，Jason Allen用Midjourney在美国科罗拉多州艺术博览会获奖。他当时说：”艺术死了，老兄。AI赢了，人类输了。”两年后，当别人用AI”抄袭”他的AI作品并售卖时，这位先驱反过来起诉了美国版权局要求保护版权——这一轮回本身就是对”AI时代创作者困境”的最佳注脚。</p>
+<hr>
+<h2 id="阶段二：焦虑与恐惧（2023）"><a href="#阶段二：焦虑与恐惧（2023）" class="headerlink" title="阶段二：焦虑与恐惧（2023）"></a>阶段二：焦虑与恐惧（2023）</h2><h3 id="白领阶层的存在焦虑"><a href="#白领阶层的存在焦虑" class="headerlink" title="白领阶层的存在焦虑"></a>白领阶层的存在焦虑</h3><p>2023年初，”AI会不会取代我的工作”成为办公室高频话题。Challenger数据显示，2023年5月美国约3900个岗位流失直接归因于AI。皮尤2024年调查显示：56%的美国公众担心AI导致失业，而AI专家中仅25%。</p>
+<p>最受冲击的并非”低技能劳动者”，而是高学历、高收入白领女性。Anthropic研究指出，受影响严重的岗位中，女性比例高出16个百分点，收入高47%，研究生学历多4倍——颠覆了”技术取代蓝领”的传统叙事。一位广告公司的文案说：「以前觉得AI威胁的是流水线工人，现在发现被威胁的是我自己。写了十年的文案，AI三十秒就能生成。」英国电信宣布七年内裁减1万个岗位以应对AI自动化，进一步印证了这不是杞人忧天。</p>
+<h3 id="教育系统的混乱"><a href="#教育系统的混乱" class="headerlink" title="教育系统的混乱"></a>教育系统的混乱</h3><p>2023年1月，纽约市公立学校率先禁止ChatGPT，洛杉矶、西雅图跟进，澳大利亚大部分公立学校也下达禁令。但禁令形同虚设——学生在个人设备上照用不误。2023年5月纽约市撤销禁令，学区总监David Banks承认：”恐惧使我们忽略了生成式AI支持学生和教师的潜力。”</p>
+<p>到2023年底仅27%的学校还在禁用ChatGPT。2024年，曾经禁止AI的学区开始主动引入AI辅导系统。<strong>当一项技术不可阻挡时，”禁止”不是选择，”适应”才是。</strong></p>
+<h3 id="艺术家的反抗"><a href="#艺术家的反抗" class="headerlink" title="艺术家的反抗"></a>艺术家的反抗</h3><p>2023年1月，Sarah Andersen、Kelly McKernan和Karla Ortiz起诉Stability AI、Midjourney和DeviantArt，指控它们”未经许可、未付报酬、未署名”地用数十亿张版权图片训练模型。2023年12月，一份约16000名艺术家的名单被泄露——这些人的作品都被用于训练Midjourney，输入”in the style of [名字]”就能模仿其风格。盲人艺术家Sara Winters发现自己列在名单上时表达了震惊：她的视觉作品被用来训练图像AI，而她本人连看这些图像的能力都没有。艺术界随后推出了Glaze和Nightshade等对抗工具。</p>
+<h3 id="专家公开信"><a href="#专家公开信" class="headerlink" title="专家公开信"></a>专家公开信</h3><p>2023年3月，Future of Life Institute发布公开信，呼吁”立即暂停训练比GPT-4更强大的AI系统至少6个月”。签名者包括Elon Musk、Steve Wozniak、Yoshua Bengio、Yuval Noah Harari等超过1000人。<strong>实际影响为零</strong>——没有任何实验室暂停。但它标志着”AI安全”从小众话题正式进入公共讨论，揭示了技术精英内部的分裂。</p>
+<hr>
+<h2 id="阶段三：分化与阵营化（2023-2024）"><a href="#阶段三：分化与阵营化（2023-2024）" class="headerlink" title="阶段三：分化与阵营化（2023-2024）"></a>阶段三：分化与阵营化（2023-2024）</h2><h3 id="意识形态战争"><a href="#意识形态战争" class="headerlink" title="意识形态战争"></a>意识形态战争</h3><p>2023年见证了有效利他主义（EA）与有效加速主义（e/acc）的对立。EA认为AI应慢下来确保安全，失控AGI可能威胁人类存续。e/acc则认为技术进步越快越好——Marc Andreessen将AI监管称为”存在虚无主义的衰减”。</p>
+<p>这场论战不是哲学争论——它撕裂了硅谷，并在2023年11月达到高潮。</p>
+<h3 id="OpenAI董事会政变"><a href="#OpenAI董事会政变" class="headerlink" title="OpenAI董事会政变"></a>OpenAI董事会政变</h3><p>2023年11月17日，OpenAI董事会以”不够坦诚”为由解除了Sam Altman的CEO职务。接下来五天经历了科技史上最戏剧性的权力斗争：约700名员工中的绝大多数签署联名信威胁辞职，微软CEO Satya Nadella”愤怒不已”，投资者考虑起诉，发起政变的Ilya Sutskever最终在推特上公开道歉：”我对自己参与董事会的行为深感遗憾。”</p>
+<p>这场闹剧的本质是EA和e/acc在董事会层面的代理人战争。解雇Altman的董事会成员与EA运动有深厚关联，他们担心的不仅是Altman的管理风格，更是OpenAI以安全为代价加速AGI开发。但结果完全背离了初衷——Altman复职，EA派系被清除，微软获得更大控制权。<strong>资本和人才最终选择了加速，而不是暂停。</strong> 一位硅谷分析师评论：”三个人的政变尝试，可能比所有政府AI论坛加起来都更能决定AI的未来走向。”在”捍卫创业精神”的叙事下，AI安全的呼声被彻底淹没。</p>
+<h3 id="监管路径的分化"><a href="#监管路径的分化" class="headerlink" title="监管路径的分化"></a>监管路径的分化</h3><p>2023-2024年，主要经济体走出不同路径，反映了社会心态的结构性差异：<strong>欧盟</strong>通过《AI法案》基于风险分级监管（预防原则）；<strong>美国</strong>选择”自律+行政令”（自由市场心态）；<strong>中国</strong>出台”发展优先”的暂行办法（83%公众认为AI利大于弊，全球最高）。三种路径，三种社会心态。</p>
+<hr>
+<h2 id="阶段四：实用主义回归（2024-2025）"><a href="#阶段四：实用主义回归（2024-2025）" class="headerlink" title="阶段四：实用主义回归（2024-2025）"></a>阶段四：实用主义回归（2024-2025）</h2><h3 id="“打不过就加入”"><a href="#“打不过就加入”" class="headerlink" title="“打不过就加入”"></a>“打不过就加入”</h3><p>2024年起，公众停止争论”AI好不好”，开始学”怎么用”。全球AI使用率从2023年的38%升至2025年的62%。AI编程助手成为科技行业标配。一位腾讯工程师描述：”2023年还有人反对用AI写代码。到2024年，不用AI效率会被同事拉开一倍，没人愿意那样。”</p>
+<h3 id="技能分化"><a href="#技能分化" class="headerlink" title="技能分化"></a>技能分化</h3><p>一个新的社会矛盾出现：<strong>“会用AI的人”和”不会用的人”差距开始拉大。</strong> Salesforce调查显示，57%的员工承认违反公司政策使用AI，66%使用AI输出但从不验证准确性。这种”偷偷用”的心态——既想借助AI提效，又担心被发现——是典型心理特征。在知识工作者中，会用AI的人可在相同时间内完成两到三倍的工作量。</p>
+<h3 id="AI疲劳"><a href="#AI疲劳" class="headerlink" title="AI疲劳"></a>AI疲劳</h3><p>使用率在上升，信任度却没有同步上升。Wiley调查显示：AI在科研中使用率从45%升到62%，但认为”AI能超越人类”的研究者从53%降至不足33%。Gartner发现53%的美国人<strong>不信任</strong>AI驱动的搜索结果。这种现象可称为”接触悖论”：<strong>用得越多，越清楚AI的局限。</strong> 一开始的惊艳消退后，公众注意到幻觉、偏见、同质化——AI生成的内容越来越无聊。尼尔森调查显示，80%以上的用户认为AI视频”打破沉浸感”。</p>
+<hr>
+<h2 id="阶段五：深度反思（2025-2026）"><a href="#阶段五：深度反思（2025-2026）" class="headerlink" title="阶段五：深度反思（2025-2026）"></a>阶段五：深度反思（2025-2026）</h2><h3 id="从”帮我做事”到”替我做决策”"><a href="#从”帮我做事”到”替我做决策”" class="headerlink" title="从”帮我做事”到”替我做决策”"></a>从”帮我做事”到”替我做决策”</h3><p>2025年下半年，Agent AI出现，带来比ChatGPT更深的认知冲击。以前是”AI助手”：你告诉它做什么，它做。Agent AI则不同：你告诉它目标，它自己决定怎么做——这是<strong>决策权的让渡</strong>。EY 2026年全球调查显示16%的人已使用过”替自己行动”的AI代理。PYMNTS数据更惊人：2025年8月，98%企业不愿给代理AI系统权限；三个月后，近40%已部署到生产环境。</p>
+<p>但公众划出了底线：德国71%拒绝日常生活使用自主AI；皮尤显示66%认为AI<strong>不应该</strong>判断两个人能否相爱，60%反对AI参与国家治理。</p>
+<h3 id="“AI同质化”警觉"><a href="#“AI同质化”警觉" class="headerlink" title="“AI同质化”警觉"></a>“AI同质化”警觉</h3><p>当所有人都用同一个AI，作品是否越来越像？2026年研究发现，AI辅助编码的输出倾向于再现西方设计规范——互联网在向”平均审美”收敛。加州大学研究显示，AI协作产生的创意<strong>更少且更不具多样性</strong>，且效应在使用停止后仍持续。2025年41%的新代码是AI生成的。NUS Computing研究发现AI辅助的代码提交产生约1.7倍更多问题，重构从2021年占25%降至不足10%，重复代码增约4倍。</p>
+<p>一位资深程序员感叹：”代码变得整齐、干净、乏味。我怀念那种’一看就知道是谁写的’风格。”这不仅仅是怀旧——当一个社会的创意产出越来越多通过少数模型生成，失去的是文化和认知的”变异空间”。</p>
+<h3 id="教育反思与”数字人类世”"><a href="#教育反思与”数字人类世”" class="headerlink" title="教育反思与”数字人类世”"></a>教育反思与”数字人类世”</h3><p>教育界从”学生作弊怎么办”进入更深的拷问：<strong>如果AI能通过所有标准化考试，考试的意义是什么？</strong> 如果知识获取变得前所未有地容易，教育应该教什么？答案指向批判性思维、价值判断和人类独有的情感能力——但没有人能自信地说已经找到了答案。知识传授不再是教育的核心，”学会与AI协作”正在成为一种基础素养。</p>
+<p>“数字人类世”的概念正在形成——人类创作和AI创作的边界已不可恢复地模糊。皮尤2025年数据显示，超过一半美国人不能自信地识别AI生成内容。韩国Research追踪调查表明，AI在情感和自我反思领域也被认为超越了人类——这不仅仅是”AI能做事”，而是”AI在人类引以为傲的领域比人类更好”。与此同时，隐私和数据主权的担忧在觉醒：英国94%的人担忧AI生成有害内容，67%经历过AI相关网络伤害。</p>
+<hr>
+<h3 id="社会心态的永久改变"><a href="#社会心态的永久改变" class="headerlink" title="社会心态的永久改变"></a>社会心态的永久改变</h3><p><strong>公众对AI的心态经历了”兴奋-恐惧-分化-接受-反思”的周期，终点不是稳定状态，而是一种永久的不安。</strong> 人们学会了使用AI，甚至依赖AI，但从未完全信任它。人们看到了效率提升，也亲身体验了同质化、信息污染和决策权的让渡。</p>
+<p>这不一定是坏事。这种”清醒的实用主义”可能是最健康的心态：既不过度乐观拥抱一切，也不极度悲观拒绝一切。但问题在于，这种平衡能维持多久？当AI代理开始替我们做越来越多决策——从购物到投资到社交——公众的心态曲线还会迎来新的拐点。也许有一天，我们不再问”AI能做什么”，而是问”我们还想自己做什么”——那将是社会心态真正的分水岭。</p>
+<p>2026年，我们依然在过山车上。</p>
+
+		</div>
+
+		
+
+		
+		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/AI/">#AI</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/">#社会心理</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E5%85%AC%E4%BC%97%E6%80%81%E5%BA%A6/">#公众态度</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A/">#研究报告</a>&nbsp;
+			</li>
+			
+		</ul>
+		
+
+		
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			<div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="prev" rel="prev" href="/2026/05/29/honglou-meng-ch81/">
+					<span class="left arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-left"></i>
+					</span>
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item truncate max-w-48">红楼梦续书 第八十一回 迎春归宁诉苦情 怡红公子悲紫菱</span>
+						<span class="post-nav-item">上一篇</span>
+					</span>
+				</a>
+			</div>
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/2026/05/28/society-daily-2026%E5%B9%B45%E6%9C%8828%E6%97%A5/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item truncate max-w-48">社会思想日报 - 2026年5月28日</span>
+						<span class="post-nav-item">下一篇</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+	</div>
+
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">目录</div>
+		<div class="page-title">社会思想与公众心态演变：AI快速崛起下的三年人心之变</div>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E8%AE%BA%E6%91%98%E8%A6%81"><span class="nav-text">结论摘要</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%98%B6%E6%AE%B5%E4%B8%80%EF%BC%9A%E5%A5%BD%E5%A5%87%E4%B8%8E%E5%AE%9E%E9%AA%8C%EF%BC%882022%E6%9C%AB-2023%E5%88%9D%EF%BC%89"><span class="nav-text">阶段一：好奇与实验（2022末 - 2023初）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%BF%AB%E5%A2%9E%E9%95%BF%E7%9A%84%E6%B6%88%E8%B4%B9%E5%93%81%E2%80%9D"><span class="nav-text">“史上最快增长的消费品”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%9E%E7%94%A8%E4%B8%BB%E4%B9%89%E9%A9%B1%E5%8A%A8"><span class="nav-text">实用主义驱动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#AI%E8%89%BA%E6%9C%AF%E5%85%A5%E4%BE%B5"><span class="nav-text">AI艺术入侵</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%98%B6%E6%AE%B5%E4%BA%8C%EF%BC%9A%E7%84%A6%E8%99%91%E4%B8%8E%E6%81%90%E6%83%A7%EF%BC%882023%EF%BC%89"><span class="nav-text">阶段二：焦虑与恐惧（2023）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%99%BD%E9%A2%86%E9%98%B6%E5%B1%82%E7%9A%84%E5%AD%98%E5%9C%A8%E7%84%A6%E8%99%91"><span class="nav-text">白领阶层的存在焦虑</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%99%E8%82%B2%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%B7%B7%E4%B9%B1"><span class="nav-text">教育系统的混乱</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%89%BA%E6%9C%AF%E5%AE%B6%E7%9A%84%E5%8F%8D%E6%8A%97"><span class="nav-text">艺术家的反抗</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%93%E5%AE%B6%E5%85%AC%E5%BC%80%E4%BF%A1"><span class="nav-text">专家公开信</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%98%B6%E6%AE%B5%E4%B8%89%EF%BC%9A%E5%88%86%E5%8C%96%E4%B8%8E%E9%98%B5%E8%90%A5%E5%8C%96%EF%BC%882023-2024%EF%BC%89"><span class="nav-text">阶段三：分化与阵营化（2023-2024）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%84%8F%E8%AF%86%E5%BD%A2%E6%80%81%E6%88%98%E4%BA%89"><span class="nav-text">意识形态战争</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#OpenAI%E8%91%A3%E4%BA%8B%E4%BC%9A%E6%94%BF%E5%8F%98"><span class="nav-text">OpenAI董事会政变</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%9B%91%E7%AE%A1%E8%B7%AF%E5%BE%84%E7%9A%84%E5%88%86%E5%8C%96"><span class="nav-text">监管路径的分化</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%98%B6%E6%AE%B5%E5%9B%9B%EF%BC%9A%E5%AE%9E%E7%94%A8%E4%B8%BB%E4%B9%89%E5%9B%9E%E5%BD%92%EF%BC%882024-2025%EF%BC%89"><span class="nav-text">阶段四：实用主义回归（2024-2025）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9C%E6%89%93%E4%B8%8D%E8%BF%87%E5%B0%B1%E5%8A%A0%E5%85%A5%E2%80%9D"><span class="nav-text">“打不过就加入”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8A%80%E8%83%BD%E5%88%86%E5%8C%96"><span class="nav-text">技能分化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#AI%E7%96%B2%E5%8A%B3"><span class="nav-text">AI疲劳</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%98%B6%E6%AE%B5%E4%BA%94%EF%BC%9A%E6%B7%B1%E5%BA%A6%E5%8F%8D%E6%80%9D%EF%BC%882025-2026%EF%BC%89"><span class="nav-text">阶段五：深度反思（2025-2026）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%8E%E2%80%9D%E5%B8%AE%E6%88%91%E5%81%9A%E4%BA%8B%E2%80%9D%E5%88%B0%E2%80%9D%E6%9B%BF%E6%88%91%E5%81%9A%E5%86%B3%E7%AD%96%E2%80%9D"><span class="nav-text">从”帮我做事”到”替我做决策”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E2%80%9CAI%E5%90%8C%E8%B4%A8%E5%8C%96%E2%80%9D%E8%AD%A6%E8%A7%89"><span class="nav-text">“AI同质化”警觉</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%99%E8%82%B2%E5%8F%8D%E6%80%9D%E4%B8%8E%E2%80%9D%E6%95%B0%E5%AD%97%E4%BA%BA%E7%B1%BB%E4%B8%96%E2%80%9D"><span class="nav-text">教育反思与”数字人类世”</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A4%BE%E4%BC%9A%E5%BF%83%E6%80%81%E7%9A%84%E6%B0%B8%E4%B9%85%E6%94%B9%E5%8F%98"><span class="nav-text">社会心态的永久改变</span></a></li></ol></li></ol>
+
+	</div>
+</div>
+	</div>
+	
+</div>
+
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+            <div class="customize-info my-1"><img src="https://img.shields.io/badge/Status-Legendary-red" alt="status"></div>
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2026</span>
+              -
+            
+            2026&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">史上最聪明的韩小凡！</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共撰写了 156 篇文章
+                    </span>
+                    
+                        <span>
+                            共 510.5k 字
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.9.0</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+            
+                
+        
+                
+        
+                
+
+                    
+                        <script data-swup-reload-script src="/js/accessibility.js" defer></script>
+                    
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		<!-- TOC aside toggle -->
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
+
+		<!-- go comment -->
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		<!-- rss -->
+		
+		<li class="right-bottom-tools rss flex justify-center items-center">
+			<a class="flex justify-center items-center" href="/atom.xml" target="_blank">
+				<i class="fa-regular fa-rss"></i>
+			</a>
+		</li>
+		
+
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="fa-regular fa-arrow-up"></i>
+		</li>
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container" role="dialog" aria-modal="true" aria-label="图片查看器">
+	<button class="image-viewer-close" type="button" aria-label="关闭">
+		<i class="fa-solid fa-xmark"></i>
+	</button>
+	<button class="image-viewer-prev" type="button" aria-label="上一页">
+		<i class="fa-solid fa-chevron-left"></i>
+	</button>
+	<div class="image-viewer-frame">
+		<img src="" alt="">
+	</div>
+	<div class="image-viewer-exif-panel hidden absolute left-1/2 bottom-20 -translate-x-1/2 w-[min(92vw,420px)] max-h-[60vh] overflow-hidden rounded-2xl bg-background-color-transparent-80 p-4 text-left shadow-redefine-flat backdrop-blur-md" role="dialog" aria-label="EXIF" aria-hidden="true">
+		<div class="flex items-center justify-between mb-3">
+			<span class="text-sm font-semibold text-first-text-color">EXIF</span>
+			<button class="image-viewer-exif-close flex h-8 w-8 items-center justify-center rounded-full bg-background-color-transparent-80 text-first-text-color transition hover:bg-background-color-transparent-40" type="button" aria-label="关闭">
+				<i class="fa-solid fa-xmark text-[0.65rem]"></i>
+			</button>
+		</div>
+		<div class="image-viewer-exif-cards grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[50vh] overflow-y-auto pr-1 scrollbar-hide"></div>
+		<template class="image-viewer-exif-card-template">
+			<div class="rounded-lg bg-background-color-transparent-40 px-3 py-2">
+				<div class="image-viewer-exif-card-header flex items-center gap-2 mb-1">
+					<i class="image-viewer-exif-card-icon fa-solid fa-circle-info text-xs text-third-text-color"></i>
+					<div class="image-viewer-exif-card-title text-xs font-semibold text-first-text-color"></div>
+				</div>
+				<div class="image-viewer-exif-card-items flex flex-col gap-1"></div>
+			</div>
+		</template>
+	</div>
+	<button class="image-viewer-exif-toggle flex items-center gap-2 hidden absolute left-1/2 bottom-6 -translate-x-1/2 rounded-full border border-border-color bg-background-color-transparent-80 px-4 py-2 text-first-text-color backdrop-blur-md transition hover:bg-background-color-transparent-40" type="button" aria-label="EXIF" aria-expanded="false">
+		<i class="fa-solid fa-circle-info text-xs"></i>
+		<span class="text-xs font-semibold uppercase tracking-wider">EXIF</span>
+	</button>
+	<button class="image-viewer-next" type="button" aria-label="下一页">
+		<i class="fa-solid fa-chevron-right"></i>
+	</button>
+</div>
+
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="站内搜索您需要的内容..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>
+    window.swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+
+    window.dispatchEvent(
+        new CustomEvent("redefine:swup:ready", {
+            detail: {
+                swup: window.swup,
+            },
+        }),
+    );
+</script>
+
+
+
+
+	
+<script src="/js/build/main.js" type="module"></script>
+
+
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script=""></script>
+
+
+
+	
+</body>
+
+</html>

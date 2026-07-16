@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>韩小凡</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://hanxiaofan.site/</id>
+  <link href="https://hanxiaofan.site/" rel="alternate"/>
+  <link href="https://hanxiaofan.site/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, 韩小凡</rights>
+  <subtitle>韩小凡的个人网站：AI、技术实验、阅读写作与对时代生活的观察。</subtitle>
+  <title>韩小凡的小站</title>
+  <updated>2026-07-16T00:30:00.000Z</updated>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/16/society-daily-2026-07-16/</id>
+    <link href="https://hanxiaofan.site/2026/07/16/society-daily-2026-07-16/"/>
+    <published>2026-07-16T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>庇护所</strong> — 从城市区划到家庭空间，人们都在建立不信任围墙内的安全岛</]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月16日</title>
+    <updated>2026-07-16T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/07/16/ai-daily-2026-07-16/</id>
+    <link href="https://hanxiaofan.site/2026/07/16/ai-daily-2026-07-16/"/>
+    <published>2026-07-16T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>微软销售培训</strong>：微软被曝训练销售团队在与客户沟通时贬低OpenAI和Anthro]]>
+    </summary>
+    <title>AI行业日报 - 2026年7月16日</title>
+    <updated>2026-07-16T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/15/society-daily-2026-07-15/</id>
+    <link href="https://hanxiaofan.site/2026/07/15/society-daily-2026-07-15/"/>
+    <published>2026-07-15T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>羞耻与沉默</strong> — 家庭内部说不出口的伤害，比伤害本身更令人窒息</li>]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月15日</title>
+    <updated>2026-07-15T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/07/15/ai-daily-2026-07-15/</id>
+    <link href="https://hanxiaofan.site/2026/07/15/ai-daily-2026-07-15/"/>
+    <published>2026-07-15T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>模型安全</strong>：OpenAI 旗舰模型 GPT-5.6 Sol 被多名用户曝光会自主]]>
+    </summary>
+    <title>AI行业日报 - 2026年7月15日</title>
+    <updated>2026-07-15T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/14/society-daily-2026-07-14/</id>
+    <link href="https://hanxiaofan.site/2026/07/14/society-daily-2026-07-14/"/>
+    <published>2026-07-14T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>身体恐慌</strong> — 对肉身失控的集体焦虑，从儿童健康到细胞衰老，身体成了最后]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月14日</title>
+    <updated>2026-07-14T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/07/14/ai-daily-2026-07-14/</id>
+    <link href="https://hanxiaofan.site/2026/07/14/ai-daily-2026-07-14/"/>
+    <published>2026-07-14T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>法律风暴</strong>：苹果正式起诉OpenAI窃取商业机密，指控其要求面试者携带苹果硬件和]]>
+    </summary>
+    <title>AI行业日报 - 2026年7月14日</title>
+    <updated>2026-07-14T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/13/society-daily-2026-07-13/</id>
+    <link href="https://hanxiaofan.site/2026/07/13/society-daily-2026-07-13/"/>
+    <published>2026-07-13T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>记忆抹除</strong> — 当过去像一间无法逃离的刑讯室，大脑选择了删库跑路。</l]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月13日</title>
+    <updated>2026-07-13T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/07/13/ai-daily-2026-07-13/</id>
+    <link href="https://hanxiaofan.site/2026/07/13/ai-daily-2026-07-13/"/>
+    <published>2026-07-13T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>存储短缺预警</strong>：SK海力士CEO预计2027年将是存储史上供应最紧张的一年，客户]]>
+    </summary>
+    <title>AI行业日报 - 2026年7月13日</title>
+    <updated>2026-07-13T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/12/society-daily-2026-07-12/</id>
+    <link href="https://hanxiaofan.site/2026/07/12/society-daily-2026-07-12/"/>
+    <published>2026-07-12T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>微小慰藉</strong> — 咖啡、花园、音乐，人们试图在细碎的事物里接住自己</li]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月12日</title>
+    <updated>2026-07-12T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI编年史" scheme="https://hanxiaofan.site/categories/AI%E7%BC%96%E5%B9%B4%E5%8F%B2/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="编年史" scheme="https://hanxiaofan.site/tags/%E7%BC%96%E5%B9%B4%E5%8F%B2/"/>
+    <category term="时间线" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E9%97%B4%E7%BA%BF/"/>
+    <id>https://hanxiaofan.site/ai-chronicle/</id>
+    <link href="https://hanxiaofan.site/ai-chronicle/"/>
+    <published>2026-07-12T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="AI编年史：从图灵到此刻"><a href="#AI编年史：从图灵到此刻" class="headerlink" title="AI编年史：从图灵到此刻"></a>AI编年史：从图灵到此刻</h1><blockquote>
+<p>这是一份持续更新的AI发展编年史。]]>
+    </summary>
+    <title>AI编年史：从图灵到此刻</title>
+    <updated>2026-07-12T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/07/12/ai-daily-2026-07-12/</id>
+    <link href="https://hanxiaofan.site/2026/07/12/ai-daily-2026-07-12/"/>
+    <published>2026-07-12T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>算力基建</strong>：中国首个全国产十万卡集群落成，实现从FP64到INT8全精度覆盖，并]]>
+    </summary>
+    <title>AI行业日报 - 2026年7月12日</title>
+    <updated>2026-07-12T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/11/society-daily-2026-07-11/</id>
+    <link href="https://hanxiaofan.site/2026/07/11/society-daily-2026-07-11/"/>
+    <published>2026-07-11T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>系统非人化</strong> — 当制度不再认识它所服务的人，还剩什么？</li>
+<l]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月11日</title>
+    <updated>2026-07-11T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/07/11/ai-daily-2026-07-11/</id>
+    <link href="https://hanxiaofan.site/2026/07/11/ai-daily-2026-07-11/"/>
+    <published>2026-07-11T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>模型与基础设施</strong>：OpenAI 明确 GPT-5.6 为 Microsoft 3]]>
+    </summary>
+    <title>AI行业日报 - 2026年7月11日</title>
+    <updated>2026-07-11T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/10/society-daily-2026-07-10/</id>
+    <link href="https://hanxiaofan.site/2026/07/10/society-daily-2026-07-10/"/>
+    <published>2026-07-10T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>性别角色的静默重构</strong> — 当女性赚钱更多时，关系破裂不是因为男性自尊受伤]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月10日</title>
+    <updated>2026-07-10T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/07/10/ai-daily-2026-07-10/</id>
+    <link href="https://hanxiaofan.site/2026/07/10/ai-daily-2026-07-10/"/>
+    <published>2026-07-10T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>模型发布</strong>：OpenAI 全面发布 GPT-5.6 三版本家族（Sol/Terr]]>
+    </summary>
+    <title>AI行业日报 - 2026年7月10日</title>
+    <updated>2026-07-10T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/09/society-daily-2026-07-09/</id>
+    <link href="https://hanxiaofan.site/2026/07/09/society-daily-2026-07-09/"/>
+    <published>2026-07-09T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>性别脚本的松动与重写</strong> — 女性收入更高时，压垮关系的不是“男主外”的旧]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月9日</title>
+    <updated>2026-07-09T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/07/09/ai-daily-2026-07-09/</id>
+    <link href="https://hanxiaofan.site/2026/07/09/ai-daily-2026-07-09/"/>
+    <published>2026-07-09T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>OpenAI 语音模型</strong>：新模型 GPT-Live-1 能边听边说，打断更少，停]]>
+    </summary>
+    <title>AI行业日报 - 2026年7月9日</title>
+    <updated>2026-07-09T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="思考" scheme="https://hanxiaofan.site/categories/%E6%80%9D%E8%80%83/"/>
+    <category term="亲密关系" scheme="https://hanxiaofan.site/tags/%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB/"/>
+    <category term="性压抑" scheme="https://hanxiaofan.site/tags/%E6%80%A7%E5%8E%8B%E6%8A%91/"/>
+    <category term="大学" scheme="https://hanxiaofan.site/tags/%E5%A4%A7%E5%AD%A6/"/>
+    <category term="应试教育" scheme="https://hanxiaofan.site/tags/%E5%BA%94%E8%AF%95%E6%95%99%E8%82%B2/"/>
+    <category term="社会观察" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E8%A7%82%E5%AF%9F/"/>
+    <id>https://hanxiaofan.site/2026/07/08/sexual-repression-highest-form/</id>
+    <link href="https://hanxiaofan.site/2026/07/08/sexual-repression-highest-form/"/>
+    <published>2026-07-08T03:41:40.000Z</published>
+    <summary>
+      <![CDATA[<p>压抑作为源自弗洛伊德精神分析的概念，自产生开始就是饱受诟病的。</p>
+<p>弗洛伊德对性的理解，是偏执到近乎怪异的。</p>
+<p>在精神分析里，弗洛伊德将性视为人的本质，由此延伸出性压抑，也就是力比多的压抑现象，作为许多心理问题的根源。</p>
+<p>换言之，在弗洛伊德]]>
+    </summary>
+    <title>对性，压抑与教育的思考</title>
+    <updated>2026-07-08T03:41:40.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/08/society-daily-2026-07-08/</id>
+    <link href="https://hanxiaofan.site/2026/07/08/society-daily-2026-07-08/"/>
+    <published>2026-07-08T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>信任的重新谈判</strong> — 人们在AI、医疗系统和亲密关系中反复问同一个问题：]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月8日</title>
+    <updated>2026-07-08T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/07/08/ai-daily-2026-07-08/</id>
+    <link href="https://hanxiaofan.site/2026/07/08/ai-daily-2026-07-08/"/>
+    <published>2026-07-08T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>大模型面试风波</strong>：前华为天才少年李博杰公开吐槽DeepSeek面试，称被质疑抄袭]]>
+    </summary>
+    <title>AI行业日报 - 2026年7月8日</title>
+    <updated>2026-07-08T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="思考" scheme="https://hanxiaofan.site/categories/%E6%80%9D%E8%80%83/"/>
+    <category term="亲密关系" scheme="https://hanxiaofan.site/tags/%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB/"/>
+    <category term="两性关系" scheme="https://hanxiaofan.site/tags/%E4%B8%A4%E6%80%A7%E5%85%B3%E7%B3%BB/"/>
+    <category term="欲望" scheme="https://hanxiaofan.site/tags/%E6%AC%B2%E6%9C%9B/"/>
+    <category term="自我价值" scheme="https://hanxiaofan.site/tags/%E8%87%AA%E6%88%91%E4%BB%B7%E5%80%BC/"/>
+    <category term="个人思考" scheme="https://hanxiaofan.site/tags/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/"/>
+    <id>https://hanxiaofan.site/2026/07/07/questions-on-intimacy-desire-and-self-worth/</id>
+    <link href="https://hanxiaofan.site/2026/07/07/questions-on-intimacy-desire-and-self-worth/"/>
+    <published>2026-07-07T08:47:35.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="关于亲密关系、欲望与自我价值的一组问题"><a href="#关于亲密关系、欲望与自我价值的一组问题" class="headerlink" title="关于亲密关系、欲望与自我价值的一组问题"></a>关于亲密关系、欲望与自我价值的一组问题</h1><h2 i]]>
+    </summary>
+    <title>性，欲望，亲密关系与自我价值的思考</title>
+    <updated>2026-07-07T08:47:35.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/07/society-daily-2026-07-07/</id>
+    <link href="https://hanxiaofan.site/2026/07/07/society-daily-2026-07-07/"/>
+    <published>2026-07-07T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>性欲焦虑</strong> — 身体成为压力的最后一块仪表盘</li>
+<li><str]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月7日</title>
+    <updated>2026-07-07T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/07/07/ai-daily-2026-07-07/</id>
+    <link href="https://hanxiaofan.site/2026/07/07/ai-daily-2026-07-07/"/>
+    <published>2026-07-07T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>资本</strong>：SK 海力士将以约 290 亿美元 ADR 本周五登陆纳斯达克，有望创下]]>
+    </summary>
+    <title>AI行业日报 - 2026年7月7日</title>
+    <updated>2026-07-07T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/06/society-daily-2026-07-06/</id>
+    <link href="https://hanxiaofan.site/2026/07/06/society-daily-2026-07-06/"/>
+    <published>2026-07-06T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>身体焦虑</strong> — 性欲、偏头痛和心跳，身体正成为人们反复监测的“数据化自我]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月6日</title>
+    <updated>2026-07-06T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/07/06/ai-daily-2026-07-06/</id>
+    <link href="https://hanxiaofan.site/2026/07/06/ai-daily-2026-07-06/"/>
+    <published>2026-07-06T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>具身智能融资</strong>：忆生科技、影智XBOT、光象科技三家同一天宣布数亿元级融资，资本]]>
+    </summary>
+    <title>AI行业日报 - 2026年7月6日</title>
+    <updated>2026-07-06T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/05/society-daily-2026-07-05/</id>
+    <link href="https://hanxiaofan.site/2026/07/05/society-daily-2026-07-05/"/>
+    <published>2026-07-05T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>维护者的耗竭感</strong> — 照护者、工会、公共服务机构都在被过度抽取，结构性疲]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月5日</title>
+    <updated>2026-07-05T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/07/05/ai-daily-2026-07-05/</id>
+    <link href="https://hanxiaofan.site/2026/07/05/ai-daily-2026-07-05/"/>
+    <published>2026-07-05T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>安全/工具链</strong>：阿里因后门风险全面禁用Claude Code，推荐自研Qoder]]>
+    </summary>
+    <title>AI行业日报 - 2026年7月5日</title>
+    <updated>2026-07-05T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/04/society-daily-2026-07-04/</id>
+    <link href="https://hanxiaofan.site/2026/07/04/society-daily-2026-07-04/"/>
+    <published>2026-07-04T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>信任的瓦解</strong> — 在最亲密的关系里，在数字世界里，我们正在失去最后的安全]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月4日</title>
+    <updated>2026-07-04T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/07/04/ai-daily-2026-07-04/</id>
+    <link href="https://hanxiaofan.site/2026/07/04/ai-daily-2026-07-04/"/>
+    <published>2026-07-04T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>模型安全</strong>：阿里因 Claude Code 被曝存在后门风险，宣布 7 月 10]]>
+    </summary>
+    <title>AI行业日报 - 2026年7月4日</title>
+    <updated>2026-07-04T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/07/03/society-daily-2026-07-03/</id>
+    <link href="https://hanxiaofan.site/2026/07/03/society-daily-2026-07-03/"/>
+    <published>2026-07-03T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>信任的反面</strong> — 最亲近的关系，也可能成为风险入口</li>
+<li><]]>
+    </summary>
+    <title>社会思想日报 - 2026年7月3日</title>
+    <updated>2026-07-03T00:30:00.000Z</updated>
+  </entry>
+</feed>
