@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="技术,编程,AI,个人博客">
+    
+    
+    <meta name="author" content="史上最聪明的韩小凡！">
+    
+    <!-- Completely eliminate flash of wrong theme -->
+    <script>
+        (function() {
+            const THEME_KEY = "REDEFINE-THEME-STATUS";
+            const DARK = "dark", LIGHT = "light";
+            
+            // Get preferred theme
+            function getTheme() {
+                try {
+                    const saved = localStorage.getItem(THEME_KEY);
+                    if (saved) {
+                        const { isDark } = JSON.parse(saved);
+                        return isDark ? DARK : LIGHT;
+                    }
+                } catch (e) {}
+                
+                return matchMedia("(prefers-color-scheme: dark)").matches ? DARK : LIGHT;
+            }
+            
+            // Apply theme to document
+            function applyTheme(theme) {
+                const isDark = theme === DARK;
+                const root = document.documentElement;
+                
+                // Set classes for compatibility
+                root.classList.add(theme);
+                root.classList.remove(isDark ? LIGHT : DARK);
+                root.style.colorScheme = theme;
+            }
+            
+            // Initial application
+            const theme = getTheme();
+            applyTheme(theme);
+            
+            // Listen for system preference changes
+            matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
+                // Only update if using system preference (no localStorage entry)
+                if (!localStorage.getItem(THEME_KEY)) {
+                    applyTheme(matches ? DARK : LIGHT);
+                }
+            });
+            
+            // Set body classes ASAP (before DOMContentLoaded)
+            (function() {
+                const addBodyClass = () => {
+                    const b = document.body;
+                    if (!b) return false;
+                    b.classList.add(theme + "-mode");
+                    return true;
+                };
+
+                // Try immediately
+                if (addBodyClass()) return;
+
+                // Observe until body exists
+                const mo = new MutationObserver(() => {
+                    if (addBodyClass()) mo.disconnect();
+                });
+                mo.observe(document.documentElement, { childList: true, subtree: true });
+            })();
+        })();
+    </script>
+    
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://hanxiaofan.site/2026/07/29/society-daily-2026-07-29/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+        
+        <meta name="description" content="韩小凡的个人网站：AI、技术实验、阅读写作与对时代生活的观察。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="社会思想日报 - 2026年7月29日">
+<meta property="og:url" content="https://hanxiaofan.site/2026/07/29/society-daily-2026-07-29/index.html">
+<meta property="og:site_name" content="韩小凡的小站">
+<meta property="og:description" content="韩小凡的个人网站：AI、技术实验、阅读写作与对时代生活的观察。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://hanxiaofan.site/images/og-cover.jpg">
+<meta property="article:published_time" content="2026-07-29T00:30:00.000Z">
+<meta property="article:author" content="韩小凡">
+<meta property="article:tag" content="时代精神">
+<meta property="article:tag" content="社会心理">
+<meta property="article:tag" content="精神分析">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://hanxiaofan.site/images/og-cover.jpg">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/dog.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/dog.jpg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/dog.jpg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            社会思想日报 - 2026年7月29日 | 宇宙无敌史上最强韩小凡同学
+        
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    <!--- Inject Part-->
+    
+        
+            
+    
+            
+    
+            
+                
+                    <link rel="stylesheet" href="/css/accessibility.css">
+                
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    <!--- Font Part-->
+    
+    
+    
+        <link href="" rel="stylesheet">
+    
+    
+    
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"hanxiaofan.site","root":"/","language":"zh-CN","path":"search.json"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"delete_mask":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":false},"copyright":{"enable":false,"default":"cc_by_nc_sa"},"lazyload":true,"pangu_js":false,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":true,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":true},"scroll_progress":{"bar":false,"percentage":false},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"side_tools":{"gear_rotation":true,"auto_expand":false},"open_graph":{"enable":true,"image":"/images/og-cover.jpg","description":"韩小凡的个人网站：AI、技术实验、阅读写作与对时代生活的观察。"},"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/night.jpg","dark":"/images/night.jpg"},"title":"to be or not to be","subtitle":{"text":["每个不曾起舞的日子，都是对生命的辜负","我歌唱自己，我赞美自己"],"hitokoto":{"enable":true,"show_author":true,"api":"https://v1.hitokoto.cn/?c=k&c=i"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"style":"default","links":[{"icon":"fa-brands fa-github","url":null},{"icon":"fa-brands fa-twitter","url":null},{"icon":"fa-solid fa-at","url":"you@example.com"},{"icon":"fa-brands fa-telegram","url":null},{"icon":"/images/custom-icon.svg","url":null}],"qrs":[{"icon":"fa-brands fa-weixin","qr":null},{"icon":"/images/custom-icon.svg","qr":null}]}},"plugins":{"feed":{"enable":true},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":false,"version":"11.4.1","theme":{"light":"default","dark":"dark"}}},"version":"2.9.0","navbar":{"auto_hide":true,"color":{"left":"#ffffff","right":"#ffffff","transparency":90},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"归档":{"path":"/archives","icon":"fa-regular fa-archive"},"标签":{"path":"/tags","icon":"fa-regular fa-tags"},"分类":{"path":"/categories","icon":"fa-regular fa-folder"},"日报":{"icon":"fa-regular fa-newspaper","submenus":{"AI行业日报":"/categories/AI日报/","社会思想日报":"/categories/社会日报/"}}},"search":{"enable":true,"preload":false}},"page_templates":{"friends_column":2,"tags_style":"blur","masonry":{"batch_size":12,"initial_batch_size":24}},"home":{"sidebar":{"enable":true,"position":"left","first_item":"info","announcement":null,"show_on_mobile":true,"links":{}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footer":{"runtime":true,"icon":"<i class=\"fa-solid fa-heart fa-beat\" style=\"--fa-animation-duration: 0.5s; color: #f54545\"></i>","start":"2026/3/6 11:45:14","statistics":true,"customize":"<img src=\"https://img.shields.io/badge/Status-Legendary-red\" alt=\"status\">","icp":{"enable":false,"number":null,"url":null}},"footerStart":"2026/3/6 11:45:14","mermaid":{"style":{"light":"default","dark":"dark"}}};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.i18n = {"search":"站内搜索您需要的内容...","toc":"目录","prev":"上一页","next":"下一页","prev_posts":"上一篇","next_posts":"下一篇","page":"第 %d 页","recent_posts":"最新文章","share":"分享","powered_by":"由 %s 驱动","theme":"主题","rss_feed":"RSS Feed","category":"分类","categories":"分类","tag":"标签","tags":"标签","post":"文章","posts":"文章","tagcloud":"标签云","comment":"评论","comments":"评论","top":"置顶","sticky":"置顶","go-back-home":"回到首页","masonry_loading":"照片加载中...","image_viewer":"图片查看器","close":"关闭","exif":{"title":"EXIF","cards":{"camera":"相机","lens":"镜头","exposure":"曝光","other":"其他"},"fields":{"make":"品牌","model":"机型","date_taken":"拍摄时间","lens_model":"镜头","focal_length":"焦距","focus_mode":"对焦模式","shutter":"快门","aperture":"光圈","iso":"感光度","exposure_program":"曝光程序","exposure_compensation":"曝光补偿","metering_mode":"测光模式","flash":"闪光灯","white_balance":"白平衡","latitude":"纬度","longitude":"经度","altitude":"海拔"},"status":{"loading":"加载中...","no_exif":"无 EXIF 信息","library_missing":"EXIF 库未加载","image_source_missing":"图片地址不可用","unavailable":"EXIF 不可用（可能被 CORS 阻止或缺少元数据）","flag_unavailable":"EXIF 不可用"}},"home":"首页","archive":"归档","archives":"归档","about":"关于","links":"链接","link":"链接","friends":"友情链接","friend":"友情链接","timeline":"时间轴","shuoshuo":"说说","bookmarks":"书签","site_uv":"访问人数","site_pv":"总访问量","read_more":"阅读全文","wordcount":"字","min2read":"分钟","changelog":"更新日志","status":"状态","runtime":"博客已运行","days":"天","hours":"小时","minutes":"分钟","seconds":"秒","optimized_by":"并由 Evan 进行优化","rights":"版权所有","site_posts":"共撰写了 %s 篇文章","site_wordcount":"共 %s 字","copyright":{"title":"标题","author":"作者","link":"链接","create_time":"创建于","update_time":"更新于","license_title":"版权声明","license_content":"本文章采用 %s 进行许可。","all_rights_reserved":"版权所有 &#169 %s，禁止转载。","public_domain":"本文为公有领域作品，可自由转载、引用。"},"ago":{"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"},"create_time":"创建","update_time":"更新","expired":"这篇文章最后更新于 %s 天前，内容可能已经过时。"};
+    window.data = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="韩小凡的小站" type="application/atom+xml">
+</head>
+
+
+<body>
+	<div class="progress-bar-container">
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	<!--        <span class="swup-progress-icon">-->
+	<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+	<!--        </span>-->
+	
+</div>
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <div class="navbar-content transition-navbar ">
+        <div class="left">
+            
+                <a class="logo-image h-8 w-8 sm:w-10 sm:h-10 mr-3" href="/">
+                    <img src="/images/girl.jpg" class="w-full h-full rounded-xs">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                宇宙无敌史上最强韩小凡同学
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    首页
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/archives"
+                                        >
+                                    <i class="fa-regular fa-archive fa-fw"></i>
+                                    归档
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/tags"
+                                        >
+                                    <i class="fa-regular fa-tags fa-fw"></i>
+                                    标签
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/categories"
+                                        >
+                                    <i class="fa-regular fa-folder fa-fw"></i>
+                                    分类
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-regular fa-newspaper fa-fw"></i>
+                                    日报
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a href="/categories/AI%E6%97%A5%E6%8A%A5/">
+                                                    AI行业日报
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/">
+                                                    社会思想日报
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/archives"
+                        >
+                            <span>
+                                归档
+                            </span>
+                            
+                                <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/tags"
+                        >
+                            <span>
+                                标签
+                            </span>
+                            
+                                <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/categories"
+                        >
+                            <span>
+                                分类
+                            </span>
+                            
+                                <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-日报"
+                        >
+                            <span>
+                                日报
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-日报">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/AI%E6%97%A5%E6%8A%A5/">AI行业日报</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           href="/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/">社会思想日报</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">59</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">11</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">182</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			<div class="w-full flex items-center pt-6 justify-start">
+				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">社会思想日报 - 2026年7月29日</h1>
+			</div>
+			
+		</div>
+
+		
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			<div class="avatar w-[46px] h-[46px] shrink-0 rounded-medium border border-border-color p-px">
+				<img src="/images/cat.jpg">
+			</div>
+			<div class="info flex flex-col justify-between">
+				<div class="author flex items-center">
+					<span class="name text-default-text-color text-lg font-semibold">史上最聪明的韩小凡！</span>
+					
+					<span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv6</span>
+					
+				</div>
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2026-07-29 08:30</span>
+        <span class="mobile">2026-07-29 08:30</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/">社会日报</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/">社会心理</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/">精神分析</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/">时代精神</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>3.3k 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>11 分钟</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>居家不安</strong> — 房子本该是庇护所，却成了焦虑源</li>
+<li><strong>倦怠的意义</strong> — 拼命寻找工作意义的人，最后反而被耗干</li>
+<li><strong>怀疑的底色</strong> — 关系里那些没说出口的疑虑，正在悄悄腐蚀日常对话</li>
+<li><strong>青年加速</strong> — 跑得越来越快的孩子，被榨取的童年</li>
+<li><strong>照护真空</strong> — 社会照护的裂痕，正压在每个家庭身上</li>
+<li><strong>信任速判</strong> — 我们用人眼白多寡来决定相信谁，快速却危险</li>
+<li><strong>修复的代价</strong> — 心理治疗真正有效的部分，远比消除症状更难</li>
+</ul>
+<h2 id="今日信号"><a href="#今日信号" class="headerlink" title="今日信号"></a>今日信号</h2><ul>
+<li><strong>英国住房安全危机</strong>：极端高温使大量住房难以居住，环境健康官员每日面对居民基本安全受威胁。折射出底层群体连“家”这个最后堡垒也守不住的安全感崩塌。</li>
+<li><strong>伯纳姆反弹</strong>：英国新首相上台后聚焦生活成本和青年地方化教育，工党支持率一年来首次反超。反映了社会对经济安全感和青年出路的急切渴求，以及希望总在新人身上的心理惯性。</li>
+<li><strong>情绪调节才是治疗关键</strong>：研究发现心理治疗结束时人格功能（尤其情绪调节能力）的改善，而非症状缓解，能真正防止抑郁焦虑复发。指向人们对心理修复急功近利，忽略了底层自我重建。</li>
+<li><strong>男性在不忠上的弹性道德</strong>：当亲密关系满意度下降，男性比女性更易对出轨持宽容态度，这与随性性行为的开放性相关。暗示一部分人用“抽身”姿态应对关系困难，而不是修补。</li>
+<li><strong>关系怀疑像恒温器</strong>：实验室观察发现伴侣间潜藏的怀疑会降低日常对话的温暖度和参与度，哪怕只是讨论家务。不安全感渗透进最平常的琐碎交流，让亲密变得小心翼翼。</li>
+<li><strong>意义寻求者更易燃尽</strong>：一项三年研究发现，持续寻找工作意义的人情绪耗竭和犬儒主义更重，而拥有意义感的人才有保护效应。把“意义”变成强迫性追寻，正在反噬职场人。</li>
+<li><strong>眼白多所以更可信</strong>：实验显示眼白暴露更多面积的面孔被评价为更值得信任、更善于社交、更有吸引力。信任凭直觉滑向最表层的视觉线索，深度判断被快速扫描替代。</li>
+<li><strong>少年记者触发的代际冲突</strong>：加州高中生调查爱泼斯坦文件，成年人大为恐慌，学生只说“我们只是在做作业”。下一代坚持信息透明，上一代执着于风险控制，凸显代际间的信任分裂。</li>
+<li><strong>青年径赛通货膨胀</strong>：精英青少年跑者速度疯狂跃升，四分钟一英里已成常态，中学生跑赢大学生。童年被彻底推向绩效极限，身体加速的同时心理代价待估。</li>
+<li><strong>放射性废水铺路</strong>：宾夕法尼亚州把含有镭的油气井废水喷洒在道路上用于融雪防尘。环境风险被制度性平常化，公众信任在长期漠视中被侵蚀。</li>
+</ul>
+<h2 id="关系透视"><a href="#关系透视" class="headerlink" title="关系透视"></a>关系透视</h2><p>亲密关系里的裂缝常常不是剧烈冲突，而是从底层对安全感的不同理解开始。 <strong>当关系满意度下降，男性更容易把出轨合理化为一种可选项</strong>——这不是简单的性别差异，而是一种切断依恋、诉诸随性性行为的防御方式。亲密不再被体验为需要共同修复的东西，而是可以被外部替代的关系。 </p>
+<p>而在日常生活的表层，那些还没说出口的怀疑一直影响对话的温度。实验室研究揭示，<strong>带着潜在怀疑的伴侣连讨论普通规划都会表现出更少的情绪参与和更冷的话语基调</strong>。它不是爆发，而是像慢性失温一样让两个人渐行渐远。这种微妙的疏离也许比出轨本身更值得观察，因为它发生在一切“还算正常”的时候。</p>
+<p>代际关系也在多处现出张力。英国社会照护改革被提上日程，新首相试图跨党派共识解决问题，但照护的重压长期由家庭内部无力承受，尤其是女性——照护不再只是老人问题，而是一个家庭的情绪劳动黑洞。另一面，加州高中生调查敏感档案，成年人跳出来恐慌，而学生坦然说“只是做功课”。 <strong>年轻人以更平实的态度追求真相，反而映照出成年世界过度警惕和回避</strong>，代际信任的裂缝里，是两套完全不同的信息伦理和安全观在碰撞。</p>
+<h2 id="心理地貌"><a href="#心理地貌" class="headerlink" title="心理地貌"></a>心理地貌</h2><p>今天好几个信号都指向一种对“意义”的过度索求。研究发现<strong>越在不断寻找工作意义的人，三年后倦怠和犬儒程度越高</strong>——意义感本身是保护因素，但把意义挂在嘴上、当作必须抵达的彼岸，就变成一种内在勒索。这很像当代职场人的日常：既受不了无意义，又被“你必须热爱你的工作”这样的规训压得喘不过气。</p>
+<p>心理治疗领域同样印证了这一点。真正能防止抑郁焦虑复发的，不是快速消除症状，而是<strong>人格底层功能的改善——特别是情绪调节能力</strong>。这提醒我们，很多人对心理修复抱着一种“修好就走”的态度，却忽略了重新学习与自己感受共处需要更长时间。</p>
+<p>在更基础的层面，住房不安全感在累积一种背景性焦虑。家本该是可以放松的唯一地方，但英国大量住宅在热浪下变得不宜居住，环境健康官员每天面对居住者基本的身体和情感安全被侵蚀。<strong>当回家的感觉变成警惕和忍受，我们就失去了心理恢复最重要的容器</strong>。</p>
+<p>一个耐人寻味的细节是，最新的面孔知觉研究显示，人们依据眼白暴露面积来快速判断他人是否可信。这种判断近乎本能，却可能导致系统性的误判—— <strong>我们正在无意识中把信任感外包给最表层的视觉信息</strong>，深层的人际判断能力在被削弱。</p>
+<h2 id="生活现场"><a href="#生活现场" class="headerlink" title="生活现场"></a>生活现场</h2><p>青年的处境复杂得让人心软。一方面，跑道上出现“trackflation”：中学生跑赢大学生，四分钟一英里变成常态。身体被极致化地开发，童年被竞技成绩重新定义。另一方面，英国新政府把降低青年失业寄托在地方化教育上——青年在加速奔跑，也在加速被抛入不稳定的就业市场。<strong>这两条线索放在一起，就像要求一个人既冲刺马拉松又要随时准备失业</strong>。</p>
+<p>物质生活的基础正在一块块松动。住房不安全不只是英国的议题，它是一条全球线索：热浪让家变得不宜居住，而放射性废水竟被用于铺路融雪。对环境健康的忽视不是突发的，而是缓慢的制度性麻木。 <strong>普通人承担着这些被扩散的风险，却几乎没有话语权参与决策</strong>。</p>
+<p>社会照护成了新的压力池。卫报征集读者经历，无论是接受照护者、家庭照料者还是从业者，都在讲述一个不透明、过度负重、被看不见的情感劳动填充的系统。照护不再是专业场域的事，它弥漫进每一个厨房和卧室，正在改变家庭的内部结构和性别分工。</p>
+<p>在娱乐与消费现场，索尼抛弃实体游戏光盘，玩家发现自己在数字时代买到的只是使用权而非拥有权。这种所有权的消融与人们渴望抓住确定的东西的心理形成对照。<strong>当住房、照护、甚至我们拥有的物品都变得不稳定，占有本身变成了焦虑源</strong>。</p>
+<h2 id="时代精神"><a href="#时代精神" class="headerlink" title="时代精神"></a>时代精神</h2><p>我们正在经历一场对“基本安全”的集体重新审视。住房、环境、照护、关系——这些曾经被视为现代生活基座的东西，不再提供理所当然的庇护。人们的反应不是单一焦虑，而是矛盾：<strong>将信任押注在新领导人、新疗法、新标准上，同时又对任何承诺都保持半信半疑</strong>。</p>
+<p>关于意义的集体悖论更值得注意。一边是心理治疗强调意义感的保护效应，另一边是职场里强迫性寻找意义带来耗竭。时代好像在告诉每个人：你的生命必须有价值，但追求价值本身正在伤害你。这种双重束缚让自我实现变成一种内耗，而不是解放。</p>
+<p>信任的机制也在视觉化和加速化。眼白面积决定可信度，新人上台决定希望值。 <strong>我们不再通过长期观察建立信任，而是靠直觉抓取和安全信息速判</strong>。这对亲密关系、社会契约、甚至对公共制度的期待都会造成频繁的幻灭，因为深度从不活在快速印象里。</p>
+<p>青年作为集体焦虑的承载者被推向多个前线。他们要跑得更快，要准备随时转行，要承担上一代无法解决的照护压力，还要被期望比成年人更纯洁地践行道德。这代年轻人过早地成为各种社会问题的出口，<strong>他们的身体在加速，但心理缓冲层在变薄</strong>。</p>
+<h2 id="时代回响"><a href="#时代回响" class="headerlink" title="时代回响"></a>时代回响</h2><p>今天这些材料像碎片镜子，照出我们对安全、意义和信任的多重饥渴。人们既渴望深度的修复（无论是心理治疗中的情绪调节，还是社会照护改革），又依赖快速判断（眼白、新人面孔）。这种矛盾不是虚伪，而是应对高度不确定时心理经济学的自然结果：都想深一点，但现实逼我们快一点。长期观察的变量是：<strong>当基本安全感（家、身体、照护网络）持续被磨损，人们会走向更防御还是更实验性的关系模式？</strong> 工作领域里，如果意义寻求本身得到去惩罚化的再定义，倦怠曲线的改变会出现吗？信任速判和青年加速背后，到底还有多少未被计算的代价？</p>
+<h2 id="参考来源"><a href="#参考来源" class="headerlink" title="参考来源"></a>参考来源</h2><ul>
+<li>[The Guardian·Society] <a class="link"   target="_blank" rel="noopener" href="https://www.theguardian.com/environment/2026/jul/27/councils-can-lead-on-housing-improvements" >Councils can lead on housing improvements | Letter<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Guardian·Society] <a class="link"   target="_blank" rel="noopener" href="https://www.theguardian.com/news/video/2026/jul/28/burnham-bounce-labour-overtake-reform-in-polls-the-latest" >Burnham bounce: Labour overtake Reform in polls – The Latest<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Guardian·Society] <a class="link"   target="_blank" rel="noopener" href="https://www.theguardian.com/news/audio/2026/jul/28/burnham-bounce-labour-overtakes-reform-in-polls-the-latest" >Burnham bounce: Labour overtakes Reform in polls – The Latest<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[PsyPost] <a class="link"   target="_blank" rel="noopener" href="https://www.psypost.org/better-personality-functioning-at-the-end-of-therapy-is-linked-to-long-term-mental-health/" >Better personality functioning at the end of therapy is linked to long-term mental health<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[PsyPost] <a class="link"   target="_blank" rel="noopener" href="https://www.psypost.org/how-relationship-satisfaction-and-views-on-casual-sex-predict-infidelity-attitud/" >Men are more likely than women to view infidelity favorably when relationships falter<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[PsyPost] <a class="link"   target="_blank" rel="noopener" href="https://www.psypost.org/how-relationship-doubts-sway-everyday-conversations-between-couples/" >How relationship doubts sway everyday conversations between couples<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Guardian·Society] <a class="link"   target="_blank" rel="noopener" href="https://www.theguardian.com/society/2026/jul/27/andy-burnham-cross-party-agreement-social-care" >Andy Burnham seeks cross-party agreement on future of social care<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[PsyPost] <a class="link"   target="_blank" rel="noopener" href="https://www.psypost.org/constant-search-for-meaning-is-associated-with-higher-workplace-burnout-study-suggests/" >Constant search for meaning is associated with higher workplace burnout, study suggests<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[PsyPost] <a class="link"   target="_blank" rel="noopener" href="https://www.psypost.org/people-judge-faces-with-more-visible-eye-whites-as-more-trustworthy-and-attractive/" >People judge faces with more visible eye whites as more trustworthy and attractive<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Guardian·Society] <a class="link"   target="_blank" rel="noopener" href="https://www.theguardian.com/society/2026/jul/28/tell-us-your-experience-adult-social-care-england-you-now" >Tell us: what has your experience of adult social care in England been like?<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Marginalian] <a class="link"   target="_blank" rel="noopener" href="https://www.themarginalian.org/2026/07/27/serpentine-birdworlds/" >The Bird in You, the World in You, and the Art of Trusting Time: A Ceramics and Serpentine Raffle<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[PsyPost] <a class="link"   target="_blank" rel="noopener" href="https://www.psypost.org/magic-mushroom-compound-could-help-defend-skin-against-premature-aging/" >Magic mushroom compound could help defend skin against premature aging<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[Longreads] <a class="link"   target="_blank" rel="noopener" href="https://longreads.com/2026/07/24/redwood-high-school-bark-epstein-journalism/" >A Teen Reporter Searched for His Community in the Epstein Files. Adults Freaked Out.<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Guardian·Society] <a class="link"   target="_blank" rel="noopener" href="https://www.theguardian.com/australia-news/2026/jul/29/cannabis-prescription-australia-doctors" >‘Prioritising profit’: Australians regularly prescribed medicinal cannabis with very high THC levels<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[Longreads] <a class="link"   target="_blank" rel="noopener" href="https://longreads.com/2026/07/27/charles-ross-artist-star-axis/" >He’s the Last Great Land Artist You’ve Never Heard Of<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Marginalian] <a class="link"   target="_blank" rel="noopener" href="https://www.themarginalian.org/2026/07/25/simone-de-beauvoir-love-friendship/" >How Two Souls Can Interact with One Another: Simone de Beauvoir on Love and Friendship<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Marginalian] <a class="link"   target="_blank" rel="noopener" href="https://www.themarginalian.org/2026/07/25/brian-doyle-humility-love/" >How to Live a Miraculous Life<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[Longreads] <a class="link"   target="_blank" rel="noopener" href="https://longreads.com/2026/07/22/wired-trackflation/" >Elite Young Runners Are Becoming Freakishly Fast. Welcome to ‘Trackflation’<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[Longreads] <a class="link"   target="_blank" rel="noopener" href="https://longreads.com/2026/07/28/monarch-migration-the-atlantic/" >The Return of the Monarch<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[Longreads] <a class="link"   target="_blank" rel="noopener" href="https://longreads.com/2026/07/28/spaceballs-rick-moranis-comic-con/" >“Spaceballs: The Clickbait”—Inside the Return of Rick Moranis at Comic-Con<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[少数派] <a class="link"   target="_blank" rel="noopener" href="https://sspai.com/post/112820" >社区速递 151 | 派友的六月好物盘点、携程被重罚热议和 tomtoc 城市穿行背包<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[少数派] <a class="link"   target="_blank" rel="noopener" href="https://sspai.com/post/112837" >派早报：微软发布网络安全模型 MAI-Cyber-1-Flash、美团发布 AI Agent 平台等<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[Longreads] <a class="link"   target="_blank" rel="noopener" href="https://longreads.com/2026/07/28/johnny-knoxville-jackass-profile/" >Johnny Knoxville, America’s God of Mischief<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Marginalian] <a class="link"   target="_blank" rel="noopener" href="https://www.themarginalian.org/2026/07/27/carl-jung-next-right-thing/" >Do the Next Right Thing: Carl Jung on How to Live and the Origin of His Famous Tenet for Navigating Uncertainty<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[少数派] <a class="link"   target="_blank" rel="noopener" href="https://sspai.com/post/112822" >能力厚重，接入极轻：HarmonyOS 7 如何把鸿蒙生态入场门槛降到几行代码<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[少数派] <a class="link"   target="_blank" rel="noopener" href="https://sspai.com/post/112380" >从《奥德赛》观影聊聊 IMAX 影院的分类<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[少数派] <a class="link"   target="_blank" rel="noopener" href="https://sspai.com/post/112774" >索尼抛弃实体游戏光盘，谁成为了转型代价？<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Marginalian] <a class="link"   target="_blank" rel="noopener" href="https://www.themarginalian.org/2026/07/26/platero-and-i/" >The Donkey and the Meaning of Life<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[The Conversation·Social Sciences] <a class="link"   target="_blank" rel="noopener" href="https://theconversation.com/pennsylvania-roads-are-being-coated-in-radioactive-wastewater-heres-why-286208" >Pennsylvania roads are being coated in radioactive wastewater − here’s why<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+<li>[少数派] <a class="link"   target="_blank" rel="noopener" href="https://sspai.com/post/112805" >派早报：月之暗面开源 Kimi K3 模型等<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></li>
+</ul>
+
+		</div>
+
+		
+
+		
+		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/">#社会心理</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/">#精神分析</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/">#时代精神</a>&nbsp;
+			</li>
+			
+		</ul>
+		
+
+		
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/2026/07/29/ai-daily-2026-07-29/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item truncate max-w-48">AI行业日报 - 2026年7月29日</span>
+						<span class="post-nav-item">下一篇</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+	</div>
+
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">目录</div>
+		<div class="page-title">社会思想日报 - 2026年7月29日</div>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8A%E6%97%A5%E5%85%B3%E9%94%AE%E8%AF%8D"><span class="nav-text">今日关键词</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8A%E6%97%A5%E4%BF%A1%E5%8F%B7"><span class="nav-text">今日信号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B3%E7%B3%BB%E9%80%8F%E8%A7%86"><span class="nav-text">关系透视</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BF%83%E7%90%86%E5%9C%B0%E8%B2%8C"><span class="nav-text">心理地貌</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%9F%E6%B4%BB%E7%8E%B0%E5%9C%BA"><span class="nav-text">生活现场</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E"><span class="nav-text">时代精神</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%97%B6%E4%BB%A3%E5%9B%9E%E5%93%8D"><span class="nav-text">时代回响</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%9D%A5%E6%BA%90"><span class="nav-text">参考来源</span></a></li></ol>
+
+	</div>
+</div>
+	</div>
+	
+</div>
+
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+            <div class="customize-info my-1"><img src="https://img.shields.io/badge/Status-Legendary-red" alt="status"></div>
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2026</span>
+              -
+            
+            2026&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">史上最聪明的韩小凡！</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共撰写了 182 篇文章
+                    </span>
+                    
+                        <span>
+                            共 587.9k 字
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">访问人数</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.9.0</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+            
+                
+        
+                
+        
+                
+
+                    
+                        <script data-swup-reload-script src="/js/accessibility.js" defer></script>
+                    
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		<!-- TOC aside toggle -->
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
+
+		<!-- go comment -->
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		<!-- rss -->
+		
+		<li class="right-bottom-tools rss flex justify-center items-center">
+			<a class="flex justify-center items-center" href="/atom.xml" target="_blank">
+				<i class="fa-regular fa-rss"></i>
+			</a>
+		</li>
+		
+
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="fa-regular fa-arrow-up"></i>
+		</li>
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container" role="dialog" aria-modal="true" aria-label="图片查看器">
+	<button class="image-viewer-close" type="button" aria-label="关闭">
+		<i class="fa-solid fa-xmark"></i>
+	</button>
+	<button class="image-viewer-prev" type="button" aria-label="上一页">
+		<i class="fa-solid fa-chevron-left"></i>
+	</button>
+	<div class="image-viewer-frame">
+		<img src="" alt="">
+	</div>
+	<div class="image-viewer-exif-panel hidden absolute left-1/2 bottom-20 -translate-x-1/2 w-[min(92vw,420px)] max-h-[60vh] overflow-hidden rounded-2xl bg-background-color-transparent-80 p-4 text-left shadow-redefine-flat backdrop-blur-md" role="dialog" aria-label="EXIF" aria-hidden="true">
+		<div class="flex items-center justify-between mb-3">
+			<span class="text-sm font-semibold text-first-text-color">EXIF</span>
+			<button class="image-viewer-exif-close flex h-8 w-8 items-center justify-center rounded-full bg-background-color-transparent-80 text-first-text-color transition hover:bg-background-color-transparent-40" type="button" aria-label="关闭">
+				<i class="fa-solid fa-xmark text-[0.65rem]"></i>
+			</button>
+		</div>
+		<div class="image-viewer-exif-cards grid grid-cols-1 sm:grid-cols-2 gap-3 max-h-[50vh] overflow-y-auto pr-1 scrollbar-hide"></div>
+		<template class="image-viewer-exif-card-template">
+			<div class="rounded-lg bg-background-color-transparent-40 px-3 py-2">
+				<div class="image-viewer-exif-card-header flex items-center gap-2 mb-1">
+					<i class="image-viewer-exif-card-icon fa-solid fa-circle-info text-xs text-third-text-color"></i>
+					<div class="image-viewer-exif-card-title text-xs font-semibold text-first-text-color"></div>
+				</div>
+				<div class="image-viewer-exif-card-items flex flex-col gap-1"></div>
+			</div>
+		</template>
+	</div>
+	<button class="image-viewer-exif-toggle flex items-center gap-2 hidden absolute left-1/2 bottom-6 -translate-x-1/2 rounded-full border border-border-color bg-background-color-transparent-80 px-4 py-2 text-first-text-color backdrop-blur-md transition hover:bg-background-color-transparent-40" type="button" aria-label="EXIF" aria-expanded="false">
+		<i class="fa-solid fa-circle-info text-xs"></i>
+		<span class="text-xs font-semibold uppercase tracking-wider">EXIF</span>
+	</button>
+	<button class="image-viewer-next" type="button" aria-label="下一页">
+		<i class="fa-solid fa-chevron-right"></i>
+	</button>
+</div>
+
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="站内搜索您需要的内容..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>
+    window.swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+
+    window.dispatchEvent(
+        new CustomEvent("redefine:swup:ready", {
+            detail: {
+                swup: window.swup,
+            },
+        }),
+    );
+</script>
+
+
+
+
+	
+<script src="/js/build/main.js" type="module"></script>
+
+
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script=""></script>
+
+
+
+	
+</body>
+
+</html>
