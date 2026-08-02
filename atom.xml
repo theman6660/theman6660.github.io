@@ -10,7 +10,43 @@
   <rights>All rights reserved 2026, 韩小凡</rights>
   <subtitle>韩小凡的个人网站：AI、技术实验、阅读写作与对时代生活的观察。</subtitle>
   <title>韩小凡的小站</title>
-  <updated>2026-08-01T00:30:00.000Z</updated>
+  <updated>2026-08-02T00:30:00.000Z</updated>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/08/02/society-daily-2026-08-02/</id>
+    <link href="https://hanxiaofan.site/2026/08/02/society-daily-2026-08-02/"/>
+    <published>2026-08-02T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>延迟成年</strong> — 独立生活成了奢侈品，家庭是安全网也是回不去的茧</li>]]>
+    </summary>
+    <title>社会思想日报 - 2026年8月2日</title>
+    <updated>2026-08-02T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/08/02/ai-daily-2026-08-02/</id>
+    <link href="https://hanxiaofan.site/2026/08/02/ai-daily-2026-08-02/"/>
+    <published>2026-08-02T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>模型出海</strong>：Coinbase、爱彼迎等美国企业转向中国大模型降成本，Kimi K]]>
+    </summary>
+    <title>AI行业日报 - 2026年8月2日</title>
+    <updated>2026-08-02T00:00:00.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>韩小凡</name>
@@ -181,8 +217,8 @@
       <name>韩小凡</name>
     </author>
     <category term="AI编年史" scheme="https://hanxiaofan.site/categories/AI%E7%BC%96%E5%B9%B4%E5%8F%B2/"/>
-    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
     <category term="编年史" scheme="https://hanxiaofan.site/tags/%E7%BC%96%E5%B9%B4%E5%8F%B2/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
     <category term="时间线" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E9%97%B4%E7%BA%BF/"/>
     <id>https://hanxiaofan.site/ai-chronicle/</id>
     <link href="https://hanxiaofan.site/ai-chronicle/"/>
@@ -520,41 +556,5 @@
     </summary>
     <title>社会思想日报 - 2026年7月19日</title>
     <updated>2026-07-19T00:30:00.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>韩小凡</name>
-    </author>
-    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
-    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
-    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
-    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
-    <id>https://hanxiaofan.site/2026/07/19/ai-daily-2026-07-19/</id>
-    <link href="https://hanxiaofan.site/2026/07/19/ai-daily-2026-07-19/"/>
-    <published>2026-07-19T00:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
-<li><strong>腾讯具身智能与智能体全栈升级</strong>：WAIC 2026 上腾讯发布具身智能全栈方案，]]>
-    </summary>
-    <title>AI行业日报 - 2026年7月19日</title>
-    <updated>2026-07-19T00:00:00.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>韩小凡</name>
-    </author>
-    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
-    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
-    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
-    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
-    <id>https://hanxiaofan.site/2026/07/18/society-daily-2026-07-18/</id>
-    <link href="https://hanxiaofan.site/2026/07/18/society-daily-2026-07-18/"/>
-    <published>2026-07-18T00:30:00.000Z</published>
-    <summary>
-      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
-<li><strong>身体作为解药</strong> — 焦虑时代里，人们重新从身体实践中寻找心灵出口</li]]>
-    </summary>
-    <title>社会思想日报 - 2026年7月18日</title>
-    <updated>2026-07-18T00:30:00.000Z</updated>
   </entry>
 </feed>
