@@ -10,7 +10,43 @@
   <rights>All rights reserved 2026, 韩小凡</rights>
   <subtitle>韩小凡的个人网站：AI、技术实验、阅读写作与对时代生活的观察。</subtitle>
   <title>韩小凡的小站</title>
-  <updated>2026-08-02T00:30:00.000Z</updated>
+  <updated>2026-08-03T00:30:00.000Z</updated>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/08/03/society-daily-2026-08-03/</id>
+    <link href="https://hanxiaofan.site/2026/08/03/society-daily-2026-08-03/"/>
+    <published>2026-08-03T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>情绪失明</strong> — 说不出的感受，变成对自己的困兽斗，或对他人的攻击</li]]>
+    </summary>
+    <title>社会思想日报 - 2026年8月3日</title>
+    <updated>2026-08-03T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/08/03/ai-daily-2026-08-03/</id>
+    <link href="https://hanxiaofan.site/2026/08/03/ai-daily-2026-08-03/"/>
+    <published>2026-08-03T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>阿里Qwen3.8</strong>：阿里发布2.4万亿参数新一代基座模型，编程与办公能力大幅跃]]>
+    </summary>
+    <title>AI行业日报 - 2026年8月3日</title>
+    <updated>2026-08-03T00:00:00.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>韩小凡</name>
@@ -217,8 +253,8 @@
       <name>韩小凡</name>
     </author>
     <category term="AI编年史" scheme="https://hanxiaofan.site/categories/AI%E7%BC%96%E5%B9%B4%E5%8F%B2/"/>
-    <category term="编年史" scheme="https://hanxiaofan.site/tags/%E7%BC%96%E5%B9%B4%E5%8F%B2/"/>
     <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="编年史" scheme="https://hanxiaofan.site/tags/%E7%BC%96%E5%B9%B4%E5%8F%B2/"/>
     <category term="时间线" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E9%97%B4%E7%BA%BF/"/>
     <id>https://hanxiaofan.site/ai-chronicle/</id>
     <link href="https://hanxiaofan.site/ai-chronicle/"/>
@@ -520,41 +556,5 @@
     </summary>
     <title>社会思想日报 - 2026年7月20日</title>
     <updated>2026-07-20T00:30:00.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>韩小凡</name>
-    </author>
-    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
-    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
-    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
-    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
-    <id>https://hanxiaofan.site/2026/07/20/ai-daily-2026-07-20/</id>
-    <link href="https://hanxiaofan.site/2026/07/20/ai-daily-2026-07-20/"/>
-    <published>2026-07-20T00:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
-<li><strong>法律风险</strong>：苹果对 OpenAI 提起诉讼，可能冲击其硬件布局与 IPO 计划<]]>
-    </summary>
-    <title>AI行业日报 - 2026年7月20日</title>
-    <updated>2026-07-20T00:00:00.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>韩小凡</name>
-    </author>
-    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
-    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
-    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
-    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
-    <id>https://hanxiaofan.site/2026/07/19/society-daily-2026-07-19/</id>
-    <link href="https://hanxiaofan.site/2026/07/19/society-daily-2026-07-19/"/>
-    <published>2026-07-19T00:30:00.000Z</published>
-    <summary>
-      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
-<li><strong>阶层化的心灵</strong> — 当连心理求助的效果都被父母的学历预判，救赎还剩下多少]]>
-    </summary>
-    <title>社会思想日报 - 2026年7月19日</title>
-    <updated>2026-07-19T00:30:00.000Z</updated>
   </entry>
 </feed>
