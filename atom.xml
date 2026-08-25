@@ -10,26 +10,7 @@
   <rights>All rights reserved 2026, 韩小凡</rights>
   <subtitle>韩小凡的个人网站：AI、技术实验、阅读写作与对时代生活的观察。</subtitle>
   <title>韩小凡的小站</title>
-  <updated>2026-08-25T00:00:00.000Z</updated>
-  <entry>
-    <author>
-      <name>韩小凡</name>
-    </author>
-    <category term="技术深度" scheme="https://hanxiaofan.site/categories/%E6%8A%80%E6%9C%AF%E6%B7%B1%E5%BA%A6/"/>
-    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
-    <category term="大模型" scheme="https://hanxiaofan.site/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/"/>
-    <category term="技术哲学" scheme="https://hanxiaofan.site/tags/%E6%8A%80%E6%9C%AF%E5%93%B2%E5%AD%A6/"/>
-    <category term="行业观察" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E8%A7%82%E5%AF%9F/"/>
-    <category term="智能体" scheme="https://hanxiaofan.site/tags/%E6%99%BA%E8%83%BD%E4%BD%93/"/>
-    <id>https://hanxiaofan.site/2026/08/25/ai-harness-and-pricing-reality-2026/</id>
-    <link href="https://hanxiaofan.site/2026/08/25/ai-harness-and-pricing-reality-2026/"/>
-    <published>2026-08-25T00:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>从 2023 年百模大战的狂欢，到 2024-2025 年打得头破血流的 API 价格战，科技巨头曾向全行业兜售过一个美好的承诺：<stro]]>
-    </summary>
-    <title>算力电表、峰谷账单与外挂支架：2026年大模型从“神话狂欢”走向“精密算计”</title>
-    <updated>2026-08-25T00:00:00.000Z</updated>
-  </entry>
+  <updated>2026-08-24T00:30:00.000Z</updated>
   <entry>
     <author>
       <name>韩小凡</name>
@@ -382,8 +363,8 @@
       <name>韩小凡</name>
     </author>
     <category term="AI编年史" scheme="https://hanxiaofan.site/categories/AI%E7%BC%96%E5%B9%B4%E5%8F%B2/"/>
-    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
     <category term="编年史" scheme="https://hanxiaofan.site/tags/%E7%BC%96%E5%B9%B4%E5%8F%B2/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
     <category term="时间线" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E9%97%B4%E7%BA%BF/"/>
     <id>https://hanxiaofan.site/ai-chronicle/</id>
     <link href="https://hanxiaofan.site/ai-chronicle/"/>
@@ -556,5 +537,24 @@
     </summary>
     <title>AI行业日报 - 2026年8月11日</title>
     <updated>2026-08-11T00:00:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/08/10/society-daily-2026-08-10/</id>
+    <link href="https://hanxiaofan.site/2026/08/10/society-daily-2026-08-10/"/>
+    <published>2026-08-10T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>提前焦虑</strong> — 还没学会认字，已经被测量失业的风险</li>
+<li><]]>
+    </summary>
+    <title>社会思想日报 - 2026年8月10日</title>
+    <updated>2026-08-10T00:30:00.000Z</updated>
   </entry>
 </feed>
