@@ -10,7 +10,43 @@
   <rights>All rights reserved 2026, 韩小凡</rights>
   <subtitle>韩小凡的个人网站：AI、技术实验、阅读写作与对时代生活的观察。</subtitle>
   <title>韩小凡的小站</title>
-  <updated>2026-09-01T00:30:00.000Z</updated>
+  <updated>2026-09-02T00:30:00.000Z</updated>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/09/02/society-daily-2026-09-02/</id>
+    <link href="https://hanxiaofan.site/2026/09/02/society-daily-2026-09-02/"/>
+    <published>2026-09-02T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>孤独蔓延</strong> — 年轻一代在结构性压力下，友谊与信任面临挑战。</li>]]>
+    </summary>
+    <title>社会思想日报 - 2026年9月2日</title>
+    <updated>2026-09-02T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/09/02/ai-daily-2026-09-02/</id>
+    <link href="https://hanxiaofan.site/2026/09/02/ai-daily-2026-09-02/"/>
+    <published>2026-09-02T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>Anthropic模型</strong>：发布Claude Fable 5.1和Mythos 5]]>
+    </summary>
+    <title>AI行业日报 - 2026年9月2日</title>
+    <updated>2026-09-02T00:00:00.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>韩小凡</name>
@@ -518,42 +554,5 @@
     </summary>
     <title>AI行业日报 - 2026年8月17日</title>
     <updated>2026-08-17T00:00:00.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>韩小凡</name>
-    </author>
-    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
-    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
-    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
-    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
-    <id>https://hanxiaofan.site/2026/08/16/society-daily-2026-08-16/</id>
-    <link href="https://hanxiaofan.site/2026/08/16/society-daily-2026-08-16/"/>
-    <published>2026-08-16T00:30:00.000Z</published>
-    <summary>
-      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
-<li><strong>虚假亲密</strong> — 现代关系中过度索取与草率逃离的循环</li>
-<li><]]>
-    </summary>
-    <title>社会思想日报 - 2026年8月16日</title>
-    <updated>2026-08-16T00:30:00.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>韩小凡</name>
-    </author>
-    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
-    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
-    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
-    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
-    <id>https://hanxiaofan.site/2026/08/16/ai-daily-2026-08-16/</id>
-    <link href="https://hanxiaofan.site/2026/08/16/ai-daily-2026-08-16/"/>
-    <published>2026-08-16T00:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
-<li><strong>Meta AI</strong>：推出全新的 Mac 桌面端应用，支持共享屏幕并基于用户屏幕内容]]>
-    </summary>
-    <title>AI行业日报 - 2026年8月16日</title>
-    <updated>2026-08-16T00:00:00.000Z</updated>
   </entry>
 </feed>
