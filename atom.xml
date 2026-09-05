@@ -10,7 +10,44 @@
   <rights>All rights reserved 2026, 韩小凡</rights>
   <subtitle>韩小凡的个人网站：AI、技术实验、阅读写作与对时代生活的观察。</subtitle>
   <title>韩小凡的小站</title>
-  <updated>2026-09-04T00:30:00.000Z</updated>
+  <updated>2026-09-05T00:30:00.000Z</updated>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
+    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
+    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
+    <id>https://hanxiaofan.site/2026/09/05/society-daily-2026-09-05/</id>
+    <link href="https://hanxiaofan.site/2026/09/05/society-daily-2026-09-05/"/>
+    <published>2026-09-05T00:30:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
+<li><strong>慢生活渴望</strong> — 在高速运转的社会中，人们对放慢节奏、回归本真的向往。<]]>
+    </summary>
+    <title>社会思想日报 - 2026年9月5日</title>
+    <updated>2026-09-05T00:30:00.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>韩小凡</name>
+    </author>
+    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
+    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
+    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
+    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
+    <id>https://hanxiaofan.site/2026/09/05/ai-daily-2026-09-05/</id>
+    <link href="https://hanxiaofan.site/2026/09/05/ai-daily-2026-09-05/"/>
+    <published>2026-09-05T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
+<li><strong>OpenAI</strong>：正式发布其最新旗舰模型GPT-6 Astra。</li>
+<li]]>
+    </summary>
+    <title>AI行业日报 - 2026年9月5日</title>
+    <updated>2026-09-05T00:00:00.000Z</updated>
+  </entry>
   <entry>
     <author>
       <name>韩小凡</name>
@@ -518,41 +555,5 @@
     </summary>
     <title>AI行业日报 - 2026年8月20日</title>
     <updated>2026-08-20T00:00:00.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>韩小凡</name>
-    </author>
-    <category term="社会日报" scheme="https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/"/>
-    <category term="社会心理" scheme="https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/"/>
-    <category term="精神分析" scheme="https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/"/>
-    <category term="时代精神" scheme="https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/"/>
-    <id>https://hanxiaofan.site/2026/08/19/society-daily-2026-08-19/</id>
-    <link href="https://hanxiaofan.site/2026/08/19/society-daily-2026-08-19/"/>
-    <published>2026-08-19T00:30:00.000Z</published>
-    <summary>
-      <![CDATA[<h2 id="今日关键词"><a href="#今日关键词" class="headerlink" title="今日关键词"></a>今日关键词</h2><ul>
-<li><strong>召唤感与倦怠</strong> — 把工作视为神圣使命的大学教师，与担忧被AI洗牌的程序]]>
-    </summary>
-    <title>社会思想日报 - 2026年8月19日</title>
-    <updated>2026-08-19T00:30:00.000Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>韩小凡</name>
-    </author>
-    <category term="AI日报" scheme="https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/"/>
-    <category term="AI" scheme="https://hanxiaofan.site/tags/AI/"/>
-    <category term="行业日报" scheme="https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/"/>
-    <category term="科技新闻" scheme="https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/"/>
-    <id>https://hanxiaofan.site/2026/08/19/ai-daily-2026-08-19/</id>
-    <link href="https://hanxiaofan.site/2026/08/19/ai-daily-2026-08-19/"/>
-    <published>2026-08-19T00:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><ul>
-<li><strong>Meta AI</strong>：Meta发布Mac专属应用，支持共享屏幕并根据屏幕内容提供实时]]>
-    </summary>
-    <title>AI行业日报 - 2026年8月19日</title>
-    <updated>2026-08-19T00:00:00.000Z</updated>
   </entry>
 </feed>
