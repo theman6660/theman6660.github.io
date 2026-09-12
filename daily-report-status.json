@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "date": "2026-09-11",
-  "sourceCommit": "85df0008547f180d41f0a2a33d1545a8b9163b91",
-  "deployedAt": "2026-09-11T11:24:07.379Z",
+  "date": "2026-09-12",
+  "sourceCommit": "b15070a07a1445eeb2b17e213e679afbbff20d87",
+  "deployedAt": "2026-09-12T01:07:23.823Z",
   "sourceRepository": "theman6660/beifen",
   "pagesRepository": "theman6660/theman6660.github.io",
   "reports": {
-    "ai": "/2026/09/11/ai-daily-2026-09-11/",
-    "society": "/2026/09/11/society-daily-2026-09-11/"
+    "ai": "/2026/09/12/ai-daily-2026-09-12/",
+    "society": "/2026/09/12/society-daily-2026-09-12/"
   }
 }
