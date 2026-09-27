@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/28/agent4-social-thought/</loc>
+    <loc>https://hanxiaofan.site/2026/05/29/agent3_historical_comparison/</loc>
     
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -20,18 +20,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/29/agent3_historical_comparison/</loc>
+    <loc>https://hanxiaofan.site/2026/05/28/agent4-social-thought/</loc>
     
-    <lastmod>2026-05-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/06/05/ai-daily-2026-06-05/</loc>
-    
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-05-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -41,6 +32,15 @@
     <loc>https://hanxiaofan.site/ai-chronicle/</loc>
     
     <lastmod>2026-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/06/05/ai-daily-2026-06-05/</loc>
+    
+    <lastmod>2026-06-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -173,15 +173,6 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/06/19/ai-daily-2026-06-19/</loc>
-    
-    <lastmod>2026-06-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/06/21/ai-daily-2026-06-21/</loc>
     
     <lastmod>2026-06-21</lastmod>
@@ -191,18 +182,27 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/06/23/ai-daily-2026-06-23/</loc>
+    <loc>https://hanxiaofan.site/2026/06/22/ai-daily-2026-06-22/</loc>
     
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-06-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/06/22/ai-daily-2026-06-22/</loc>
+    <loc>https://hanxiaofan.site/2026/06/19/ai-daily-2026-06-19/</loc>
     
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-06-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/06/23/ai-daily-2026-06-23/</loc>
+    
+    <lastmod>2026-06-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -236,6 +236,15 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/06/26/ai-daily-2026-06-26/</loc>
+    
+    <lastmod>2026-06-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/06/28/ai-daily-2026-06-28/</loc>
     
     <lastmod>2026-06-28</lastmod>
@@ -248,33 +257,6 @@
     <loc>https://hanxiaofan.site/2026/06/29/ai-daily-2026-06-29/</loc>
     
     <lastmod>2026-06-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/06/30/ai-daily-2026-06-30/</loc>
-    
-    <lastmod>2026-06-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/06/26/ai-daily-2026-06-26/</loc>
-    
-    <lastmod>2026-06-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/07/01/ai-daily-2026-07-01/</loc>
-    
-    <lastmod>2026-07-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -299,9 +281,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/03/ai-daily-2026-07-03/</loc>
+    <loc>https://hanxiaofan.site/2026/07/01/ai-daily-2026-07-01/</loc>
     
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/06/30/ai-daily-2026-06-30/</loc>
+    
+    <lastmod>2026-06-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -311,6 +302,15 @@
     <loc>https://hanxiaofan.site/2026/07/05/ai-daily-2026-07-05/</loc>
     
     <lastmod>2026-07-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/07/03/ai-daily-2026-07-03/</loc>
+    
+    <lastmod>2026-07-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -344,6 +344,15 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/07/11/ai-daily-2026-07-11/</loc>
+    
+    <lastmod>2026-07-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/07/08/ai-daily-2026-07-08/</loc>
     
     <lastmod>2026-07-08</lastmod>
@@ -362,27 +371,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/11/ai-daily-2026-07-11/</loc>
-    
-    <lastmod>2026-07-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/07/12/ai-daily-2026-07-12/</loc>
     
     <lastmod>2026-07-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/07/15/ai-daily-2026-07-15/</loc>
-    
-    <lastmod>2026-07-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -407,6 +398,15 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/07/17/ai-daily-2026-07-17/</loc>
+    
+    <lastmod>2026-07-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/07/16/ai-daily-2026-07-16/</loc>
     
     <lastmod>2026-07-16</lastmod>
@@ -416,9 +416,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/17/ai-daily-2026-07-17/</loc>
+    <loc>https://hanxiaofan.site/2026/07/15/ai-daily-2026-07-15/</loc>
     
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -452,15 +452,6 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/20/ai-daily-2026-07-20/</loc>
-    
-    <lastmod>2026-07-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/07/22/ai-daily-2026-07-22/</loc>
     
     <lastmod>2026-07-22</lastmod>
@@ -473,6 +464,15 @@
     <loc>https://hanxiaofan.site/2026/07/23/ai-daily-2026-07-23/</loc>
     
     <lastmod>2026-07-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/07/20/ai-daily-2026-07-20/</loc>
+    
+    <lastmod>2026-07-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -515,27 +515,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/30/ai-daily-2026-07-30/</loc>
-    
-    <lastmod>2026-07-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/07/31/ai-daily-2026-07-31/</loc>
-    
-    <lastmod>2026-07-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/07/28/ai-daily-2026-07-28/</loc>
     
     <lastmod>2026-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/07/30/ai-daily-2026-07-30/</loc>
+    
+    <lastmod>2026-07-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -554,6 +545,15 @@
     <loc>https://hanxiaofan.site/2026/08/01/ai-daily-2026-08-01/</loc>
     
     <lastmod>2026-08-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/07/31/ai-daily-2026-07-31/</loc>
+    
+    <lastmod>2026-07-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -596,9 +596,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/07/ai-daily-2026-08-07/</loc>
+    <loc>https://hanxiaofan.site/2026/08/06/ai-daily-2026-08-06/</loc>
     
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -614,9 +614,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/06/ai-daily-2026-08-06/</loc>
+    <loc>https://hanxiaofan.site/2026/08/07/ai-daily-2026-08-07/</loc>
     
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -641,18 +641,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/12/ai-daily-2026-08-12/</loc>
+    <loc>https://hanxiaofan.site/2026/08/11/ai-daily-2026-08-11/</loc>
     
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/11/ai-daily-2026-08-11/</loc>
+    <loc>https://hanxiaofan.site/2026/08/12/ai-daily-2026-08-12/</loc>
     
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -677,9 +677,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/16/ai-daily-2026-08-16/</loc>
+    <loc>https://hanxiaofan.site/2026/08/15/ai-daily-2026-08-15/</loc>
     
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -695,18 +695,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/15/ai-daily-2026-08-15/</loc>
+    <loc>https://hanxiaofan.site/2026/08/16/ai-daily-2026-08-16/</loc>
     
-    <lastmod>2026-08-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/08/18/ai-daily-2026-08-18/</loc>
-    
-    <lastmod>2026-08-18</lastmod>
+    <lastmod>2026-08-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -740,6 +731,24 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/08/21/ai-daily-2026-08-21/</loc>
+    
+    <lastmod>2026-08-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/08/18/ai-daily-2026-08-18/</loc>
+    
+    <lastmod>2026-08-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/08/23/ai-daily-2026-08-23/</loc>
     
     <lastmod>2026-08-23</lastmod>
@@ -758,18 +767,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/21/ai-daily-2026-08-21/</loc>
+    <loc>https://hanxiaofan.site/2026/08/26/ai-daily-2026-08-26/</loc>
     
-    <lastmod>2026-08-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/08/28/ai-daily-2026-08-28/</loc>
-    
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-08-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -785,9 +785,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/26/ai-daily-2026-08-26/</loc>
+    <loc>https://hanxiaofan.site/2026/08/28/ai-daily-2026-08-28/</loc>
     
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -803,15 +803,6 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/31/ai-daily-2026-08-31/</loc>
-    
-    <lastmod>2026-08-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/09/01/ai-daily-2026-09-01/</loc>
     
     <lastmod>2026-09-01</lastmod>
@@ -821,9 +812,27 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/08/31/ai-daily-2026-08-31/</loc>
+    
+    <lastmod>2026-08-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/09/02/ai-daily-2026-09-02/</loc>
     
     <lastmod>2026-09-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/09/03/ai-daily-2026-09-03/</loc>
+    
+    <lastmod>2026-09-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -848,27 +857,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/07/ai-daily-2026-09-07/</loc>
-    
-    <lastmod>2026-09-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/09/06/ai-daily-2026-09-06/</loc>
     
     <lastmod>2026-09-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/09/10/ai-daily-2026-09-10/</loc>
-    
-    <lastmod>2026-09-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -884,6 +875,15 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/09/07/ai-daily-2026-09-07/</loc>
+    
+    <lastmod>2026-09-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/09/09/ai-daily-2026-09-09/</loc>
     
     <lastmod>2026-09-09</lastmod>
@@ -893,9 +893,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/03/ai-daily-2026-09-03/</loc>
+    <loc>https://hanxiaofan.site/2026/09/10/ai-daily-2026-09-10/</loc>
     
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -911,9 +911,27 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/09/13/ai-daily-2026-09-13/</loc>
+    
+    <lastmod>2026-09-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/09/11/ai-daily-2026-09-11/</loc>
     
     <lastmod>2026-09-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/09/14/ai-daily-2026-09-14/</loc>
+    
+    <lastmod>2026-09-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -929,27 +947,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/13/ai-daily-2026-09-13/</loc>
-    
-    <lastmod>2026-09-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/09/16/ai-daily-2026-09-16/</loc>
     
     <lastmod>2026-09-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/09/14/ai-daily-2026-09-14/</loc>
-    
-    <lastmod>2026-09-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -974,18 +974,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/20/ai-daily-2026-09-20/</loc>
+    <loc>https://hanxiaofan.site/2026/09/19/ai-daily-2026-09-19/</loc>
     
-    <lastmod>2026-09-20</lastmod>
+    <lastmod>2026-09-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/19/ai-daily-2026-09-19/</loc>
+    <loc>https://hanxiaofan.site/2026/09/20/ai-daily-2026-09-20/</loc>
     
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-09-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1028,18 +1028,27 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/26/ai-daily-2026-09-26/</loc>
+    <loc>https://hanxiaofan.site/2026/09/25/ai-daily-2026-09-25/</loc>
     
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/25/ai-daily-2026-09-25/</loc>
+    <loc>https://hanxiaofan.site/2026/09/27/ai-daily-2026-09-27/</loc>
     
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/09/26/ai-daily-2026-09-26/</loc>
+    
+    <lastmod>2026-09-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1073,27 +1082,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/12/ai-daily-2026%E5%B9%B45%E6%9C%8813%E6%97%A5/</loc>
-    
-    <lastmod>2026-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/05/13/ai-daily-2026%E5%B9%B45%E6%9C%8814%E6%97%A5/</loc>
     
     <lastmod>2026-05-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/05/15/ai-daily-2026%E5%B9%B45%E6%9C%8816%E6%97%A5/</loc>
-    
-    <lastmod>2026-05-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1109,18 +1100,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/16/ai-daily-2026%E5%B9%B45%E6%9C%8817%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/15/ai-daily-2026%E5%B9%B45%E6%9C%8816%E6%97%A5/</loc>
     
-    <lastmod>2026-05-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/05/18/ai-daily-2026%E5%B9%B45%E6%9C%8819%E6%97%A5/</loc>
-    
-    <lastmod>2026-05-18</lastmod>
+    <lastmod>2026-05-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1136,18 +1118,36 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/19/ai-daily-2026%E5%B9%B45%E6%9C%8820%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/12/ai-daily-2026%E5%B9%B45%E6%9C%8813%E6%97%A5/</loc>
     
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/20/ai-daily-2026%E5%B9%B45%E6%9C%8821%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/18/ai-daily-2026%E5%B9%B45%E6%9C%8819%E6%97%A5/</loc>
     
-    <lastmod>2026-05-20</lastmod>
+    <lastmod>2026-05-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/05/16/ai-daily-2026%E5%B9%B45%E6%9C%8817%E6%97%A5/</loc>
+    
+    <lastmod>2026-05-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/05/19/ai-daily-2026%E5%B9%B45%E6%9C%8820%E6%97%A5/</loc>
+    
+    <lastmod>2026-05-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1163,18 +1163,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/23/ai-daily-2026%E5%B9%B45%E6%9C%8824%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/20/ai-daily-2026%E5%B9%B45%E6%9C%8821%E6%97%A5/</loc>
     
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-05-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/24/ai-daily-2026%E5%B9%B45%E6%9C%8825%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/23/ai-daily-2026%E5%B9%B45%E6%9C%8824%E6%97%A5/</loc>
     
-    <lastmod>2026-05-24</lastmod>
+    <lastmod>2026-05-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1199,18 +1199,27 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/02/ai-daily-2026%E5%B9%B45%E6%9C%882%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/27/ai-daily-2026%E5%B9%B45%E6%9C%8828%E6%97%A5/</loc>
     
-    <lastmod>2026-05-02</lastmod>
+    <lastmod>2026-05-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/27/ai-daily-2026%E5%B9%B45%E6%9C%8828%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/24/ai-daily-2026%E5%B9%B45%E6%9C%8825%E6%97%A5/</loc>
     
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/05/02/ai-daily-2026%E5%B9%B45%E6%9C%882%E6%97%A5/</loc>
+    
+    <lastmod>2026-05-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1271,15 +1280,6 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/02/ai-development-and-social-psychology/</loc>
-    
-    <lastmod>2026-05-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/06/05/anthropic-when-ai-builds-itself/</loc>
     
     <lastmod>2026-06-05</lastmod>
@@ -1298,9 +1298,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/29/honglou-meng-ch81/</loc>
+    <loc>https://hanxiaofan.site/2026/05/02/ai-development-and-social-psychology/</loc>
     
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-05-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1310,6 +1310,15 @@
     <loc>https://hanxiaofan.site/2026/06/12/escher-droste-report/</loc>
     
     <lastmod>2026-06-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/05/29/honglou-meng-ch81/</loc>
+    
+    <lastmod>2026-05-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1343,6 +1352,15 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/05/29/honglou-meng-ch85/</loc>
+    
+    <lastmod>2026-05-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/05/29/honglou-meng-ch86/</loc>
     
     <lastmod>2026-05-29</lastmod>
@@ -1361,7 +1379,7 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/29/honglou-meng-ch88/</loc>
+    <loc>https://hanxiaofan.site/2026/05/29/honglou-meng-ch89/</loc>
     
     <lastmod>2026-05-29</lastmod>
     
@@ -1370,7 +1388,7 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/29/honglou-meng-ch89/</loc>
+    <loc>https://hanxiaofan.site/2026/05/29/honglou-meng-ch88/</loc>
     
     <lastmod>2026-05-29</lastmod>
     
@@ -1397,15 +1415,6 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/29/honglou-meng-ch85/</loc>
-    
-    <lastmod>2026-05-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/07/08/sexual-repression-highest-form/</loc>
     
     <lastmod>2026-07-08</lastmod>
@@ -1415,9 +1424,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/06/05/society-daily-2026-06-05/</loc>
+    <loc>https://hanxiaofan.site/2026/05/20/psychology-20th-century-chronicle/</loc>
     
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-05-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1433,9 +1442,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/20/psychology-20th-century-chronicle/</loc>
+    <loc>https://hanxiaofan.site/2026/06/05/society-daily-2026-06-05/</loc>
     
-    <lastmod>2026-05-20</lastmod>
+    <lastmod>2026-06-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1460,15 +1469,6 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/06/11/society-daily-2026-06-11/</loc>
-    
-    <lastmod>2026-06-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/06/10/society-daily-2026-06-10/</loc>
     
     <lastmod>2026-06-10</lastmod>
@@ -1487,9 +1487,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/06/14/society-daily-2026-06-14/</loc>
+    <loc>https://hanxiaofan.site/2026/06/11/society-daily-2026-06-11/</loc>
     
-    <lastmod>2026-06-14</lastmod>
+    <lastmod>2026-06-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1505,9 +1505,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/06/17/society-daily-2026-06-17/</loc>
+    <loc>https://hanxiaofan.site/2026/06/14/society-daily-2026-06-14/</loc>
     
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-06-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1523,9 +1523,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/06/18/society-daily-2026-06-18/</loc>
+    <loc>https://hanxiaofan.site/2026/06/17/society-daily-2026-06-17/</loc>
     
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1622,18 +1622,27 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/06/30/society-daily-2026-06-30/</loc>
+    <loc>https://hanxiaofan.site/2026/06/28/society-daily-2026-06-28/</loc>
     
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-06-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/06/28/society-daily-2026-06-28/</loc>
+    <loc>https://hanxiaofan.site/2026/06/18/society-daily-2026-06-18/</loc>
     
-    <lastmod>2026-06-28</lastmod>
+    <lastmod>2026-06-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/06/29/society-daily-2026-06-29/</loc>
+    
+    <lastmod>2026-06-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1649,9 +1658,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/06/29/society-daily-2026-06-29/</loc>
+    <loc>https://hanxiaofan.site/2026/06/30/society-daily-2026-06-30/</loc>
     
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1703,9 +1712,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/09/society-daily-2026-07-09/</loc>
+    <loc>https://hanxiaofan.site/2026/07/08/society-daily-2026-07-08/</loc>
     
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-07-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1721,9 +1730,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/08/society-daily-2026-07-08/</loc>
+    <loc>https://hanxiaofan.site/2026/07/09/society-daily-2026-07-09/</loc>
     
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1748,18 +1757,27 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/12/society-daily-2026-07-12/</loc>
+    <loc>https://hanxiaofan.site/2026/07/13/society-daily-2026-07-13/</loc>
     
-    <lastmod>2026-07-12</lastmod>
+    <lastmod>2026-07-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/13/society-daily-2026-07-13/</loc>
+    <loc>https://hanxiaofan.site/2026/07/15/society-daily-2026-07-15/</loc>
     
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/07/12/society-daily-2026-07-12/</loc>
+    
+    <lastmod>2026-07-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1778,15 +1796,6 @@
     <loc>https://hanxiaofan.site/2026/07/16/society-daily-2026-07-16/</loc>
     
     <lastmod>2026-07-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/07/15/society-daily-2026-07-15/</loc>
-    
-    <lastmod>2026-07-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1829,18 +1838,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/21/society-daily-2026-07-21/</loc>
+    <loc>https://hanxiaofan.site/2026/07/22/society-daily-2026-07-22/</loc>
     
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-07-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/22/society-daily-2026-07-22/</loc>
+    <loc>https://hanxiaofan.site/2026/07/21/society-daily-2026-07-21/</loc>
     
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1856,15 +1865,6 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/24/society-daily-2026-07-24/</loc>
-    
-    <lastmod>2026-07-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/07/25/society-daily-2026-07-25/</loc>
     
     <lastmod>2026-07-25</lastmod>
@@ -1874,9 +1874,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/26/society-daily-2026-07-26/</loc>
+    <loc>https://hanxiaofan.site/2026/07/24/society-daily-2026-07-24/</loc>
     
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1901,6 +1901,15 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/07/26/society-daily-2026-07-26/</loc>
+    
+    <lastmod>2026-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/07/29/society-daily-2026-07-29/</loc>
     
     <lastmod>2026-07-29</lastmod>
@@ -1910,18 +1919,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/31/society-daily-2026-07-31/</loc>
+    <loc>https://hanxiaofan.site/2026/07/30/society-daily-2026-07-30/</loc>
     
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-07-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/07/30/society-daily-2026-07-30/</loc>
+    <loc>https://hanxiaofan.site/2026/07/31/society-daily-2026-07-31/</loc>
     
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1946,18 +1955,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/04/society-daily-2026-08-04/</loc>
+    <loc>https://hanxiaofan.site/2026/08/03/society-daily-2026-08-03/</loc>
     
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/03/society-daily-2026-08-03/</loc>
+    <loc>https://hanxiaofan.site/2026/08/04/society-daily-2026-08-04/</loc>
     
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1991,18 +2000,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/06/society-daily-2026-08-06/</loc>
+    <loc>https://hanxiaofan.site/2026/08/09/society-daily-2026-08-09/</loc>
     
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/09/society-daily-2026-08-09/</loc>
+    <loc>https://hanxiaofan.site/2026/08/12/society-daily-2026-08-12/</loc>
     
-    <lastmod>2026-08-09</lastmod>
+    <lastmod>2026-08-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2027,18 +2036,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/12/society-daily-2026-08-12/</loc>
+    <loc>https://hanxiaofan.site/2026/08/06/society-daily-2026-08-06/</loc>
     
-    <lastmod>2026-08-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/08/13/society-daily-2026-08-13/</loc>
-    
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2048,6 +2048,15 @@
     <loc>https://hanxiaofan.site/2026/08/14/society-daily-2026-08-14/</loc>
     
     <lastmod>2026-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/08/13/society-daily-2026-08-13/</loc>
+    
+    <lastmod>2026-08-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2072,15 +2081,6 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/18/society-daily-2026-08-18/</loc>
-    
-    <lastmod>2026-08-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/08/17/society-daily-2026-08-17/</loc>
     
     <lastmod>2026-08-17</lastmod>
@@ -2099,9 +2099,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/20/society-daily-2026-08-20/</loc>
+    <loc>https://hanxiaofan.site/2026/08/18/society-daily-2026-08-18/</loc>
     
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2117,9 +2117,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/23/society-daily-2026-08-23/</loc>
+    <loc>https://hanxiaofan.site/2026/08/20/society-daily-2026-08-20/</loc>
     
-    <lastmod>2026-08-23</lastmod>
+    <lastmod>2026-08-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2144,18 +2144,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/28/society-daily-2026-08-28/</loc>
+    <loc>https://hanxiaofan.site/2026/08/23/society-daily-2026-08-23/</loc>
     
-    <lastmod>2026-08-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/08/29/society-daily-2026-08-29/</loc>
-    
-    <lastmod>2026-08-29</lastmod>
+    <lastmod>2026-08-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2171,9 +2162,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/08/30/society-daily-2026-08-30/</loc>
+    <loc>https://hanxiaofan.site/2026/08/28/society-daily-2026-08-28/</loc>
     
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/08/29/society-daily-2026-08-29/</loc>
+    
+    <lastmod>2026-08-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2198,6 +2198,15 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/09/03/society-daily-2026-09-03/</loc>
+    
+    <lastmod>2026-09-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/09/02/society-daily-2026-09-02/</loc>
     
     <lastmod>2026-09-02</lastmod>
@@ -2207,18 +2216,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/04/society-daily-2026-09-04/</loc>
+    <loc>https://hanxiaofan.site/2026/08/30/society-daily-2026-08-30/</loc>
     
-    <lastmod>2026-09-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/09/03/society-daily-2026-09-03/</loc>
-    
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-08-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2243,6 +2243,15 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/09/04/society-daily-2026-09-04/</loc>
+    
+    <lastmod>2026-09-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/09/07/society-daily-2026-09-07/</loc>
     
     <lastmod>2026-09-07</lastmod>
@@ -2261,18 +2270,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/09/society-daily-2026-09-09/</loc>
+    <loc>https://hanxiaofan.site/2026/09/10/society-daily-2026-09-10/</loc>
     
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/10/society-daily-2026-09-10/</loc>
+    <loc>https://hanxiaofan.site/2026/09/09/society-daily-2026-09-09/</loc>
     
-    <lastmod>2026-09-10</lastmod>
+    <lastmod>2026-09-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2288,15 +2297,6 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/13/society-daily-2026-09-13/</loc>
-    
-    <lastmod>2026-09-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/09/11/society-daily-2026-09-11/</loc>
     
     <lastmod>2026-09-11</lastmod>
@@ -2306,18 +2306,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/14/society-daily-2026-09-14/</loc>
+    <loc>https://hanxiaofan.site/2026/09/15/society-daily-2026-09-15/</loc>
     
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/15/society-daily-2026-09-15/</loc>
+    <loc>https://hanxiaofan.site/2026/09/13/society-daily-2026-09-13/</loc>
     
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2342,9 +2342,27 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/09/14/society-daily-2026-09-14/</loc>
+    
+    <lastmod>2026-09-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/09/18/society-daily-2026-09-18/</loc>
     
     <lastmod>2026-09-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/09/19/society-daily-2026-09-19/</loc>
+    
+    <lastmod>2026-09-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2387,24 +2405,6 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/09/24/society-daily-2026-09-24/</loc>
-    
-    <lastmod>2026-09-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/09/19/society-daily-2026-09-19/</loc>
-    
-    <lastmod>2026-09-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/09/25/society-daily-2026-09-25/</loc>
     
     <lastmod>2026-09-25</lastmod>
@@ -2423,9 +2423,27 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/09/24/society-daily-2026-09-24/</loc>
+    
+    <lastmod>2026-09-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/04/30/society-daily-2026%E5%B9%B44%E6%9C%8830%E6%97%A5/</loc>
     
     <lastmod>2026-04-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/09/27/society-daily-2026-09-27/</loc>
+    
+    <lastmod>2026-09-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2441,18 +2459,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/12/society-daily-2026%E5%B9%B45%E6%9C%8812%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/11/society-daily-2026%E5%B9%B45%E6%9C%8811%E6%97%A5/</loc>
     
-    <lastmod>2026-05-12</lastmod>
+    <lastmod>2026-05-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/11/society-daily-2026%E5%B9%B45%E6%9C%8811%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/12/society-daily-2026%E5%B9%B45%E6%9C%8812%E6%97%A5/</loc>
     
-    <lastmod>2026-05-11</lastmod>
+    <lastmod>2026-05-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2477,27 +2495,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/19/society-daily-2026%E5%B9%B45%E6%9C%8819%E6%97%A5/</loc>
-    
-    <lastmod>2026-05-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/05/15/society-daily-2026%E5%B9%B45%E6%9C%8815%E6%97%A5/</loc>
     
     <lastmod>2026-05-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/05/01/society-daily-2026%E5%B9%B45%E6%9C%881%E6%97%A5/</loc>
-    
-    <lastmod>2026-05-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2513,9 +2513,36 @@
   </url>
   
   <url>
+    <loc>https://hanxiaofan.site/2026/05/19/society-daily-2026%E5%B9%B45%E6%9C%8819%E6%97%A5/</loc>
+    
+    <lastmod>2026-05-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hanxiaofan.site/2026/05/20/society-daily-2026%E5%B9%B45%E6%9C%8820%E6%97%A5/</loc>
     
     <lastmod>2026-05-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/05/01/society-daily-2026%E5%B9%B45%E6%9C%881%E6%97%A5/</loc>
+    
+    <lastmod>2026-05-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/05/23/society-daily-2026%E5%B9%B45%E6%9C%8823%E6%97%A5/</loc>
+    
+    <lastmod>2026-05-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2549,27 +2576,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/27/society-daily-2026%E5%B9%B45%E6%9C%8827%E6%97%A5/</loc>
-    
-    <lastmod>2026-05-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hanxiaofan.site/2026/05/26/society-daily-2026%E5%B9%B45%E6%9C%8826%E6%97%A5/</loc>
     
     <lastmod>2026-05-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/2026/05/23/society-daily-2026%E5%B9%B45%E6%9C%8823%E6%97%A5/</loc>
-    
-    <lastmod>2026-05-23</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2585,18 +2594,27 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/30/society-daily-2026%E5%B9%B45%E6%9C%8830%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/28/society-daily-2026%E5%B9%B45%E6%9C%8828%E6%97%A5/</loc>
     
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/28/society-daily-2026%E5%B9%B45%E6%9C%8828%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/27/society-daily-2026%E5%B9%B45%E6%9C%8827%E6%97%A5/</loc>
     
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/2026/05/04/society-daily-2026%E5%B9%B45%E6%9C%884%E6%97%A5/</loc>
+    
+    <lastmod>2026-05-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2612,9 +2630,9 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/04/society-daily-2026%E5%B9%B45%E6%9C%884%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/30/society-daily-2026%E5%B9%B45%E6%9C%8830%E6%97%A5/</loc>
     
-    <lastmod>2026-05-04</lastmod>
+    <lastmod>2026-05-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2639,18 +2657,18 @@
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/08/society-daily-2026%E5%B9%B45%E6%9C%888%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/09/society-daily-2026%E5%B9%B45%E6%9C%889%E6%97%A5/</loc>
     
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-05-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/2026/05/09/society-daily-2026%E5%B9%B45%E6%9C%889%E6%97%A5/</loc>
+    <loc>https://hanxiaofan.site/2026/05/08/society-daily-2026%E5%B9%B45%E6%9C%888%E6%97%A5/</loc>
     
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2668,7 +2686,7 @@
   <url>
     <loc>https://hanxiaofan.site/categories/index.html</loc>
     
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2677,7 +2695,7 @@
   <url>
     <loc>https://hanxiaofan.site/tags/index.html</loc>
     
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2686,7 +2704,7 @@
 
   <url>
     <loc>https://hanxiaofan.site/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -2694,413 +2712,413 @@
   
   <url>
     <loc>https://hanxiaofan.site/tags/AI/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E5%85%AC%E4%BC%97%E6%80%81%E5%BA%A6/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E7%BC%96%E5%B9%B4%E5%8F%B2/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E6%8A%80%E6%9C%AF%E5%8F%B2/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E5%B7%A5%E4%B8%9A%E9%9D%A9%E5%91%BD/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://hanxiaofan.site/tags/%E7%BC%96%E5%B9%B4%E5%8F%B2/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://hanxiaofan.site/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E5%85%AC%E4%BC%97%E6%80%81%E5%BA%A6/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E6%97%B6%E9%97%B4%E7%BA%BF/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/tags/%E6%8A%80%E6%9C%AF%E5%93%B2%E5%AD%A6/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%9A%E6%97%A5%E6%8A%A5/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E7%A7%91%E6%8A%80%E6%96%B0%E9%97%BB/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/Anthropic/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E9%80%92%E5%BD%92%E8%87%AA%E6%88%91%E6%94%B9%E8%BF%9B/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/RSI/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/AGI/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E5%AF%B9%E9%BD%90/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E7%BF%BB%E8%AF%91/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E7%BB%AD%E4%B9%A6/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/AI%E6%8E%A8%E6%BC%94/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E7%AC%AC81%E5%9B%9E/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://hanxiaofan.site/tags/%E6%8A%80%E6%9C%AF%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/WebGL/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E6%95%B0%E5%AD%A6%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/Droste-%E6%95%88%E5%BA%94/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E7%BA%A2%E6%A5%BC%E6%A2%A6/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E7%BB%AD%E4%B9%A6/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/AI%E6%8E%A8%E6%BC%94/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E7%AC%AC81%E5%9B%9E/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E7%AC%AC82%E5%9B%9E/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E7%AC%AC83%E5%9B%9E/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E7%AC%AC84%E5%9B%9E/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E7%AC%AC86%E5%9B%9E/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E7%AC%AC87%E5%9B%9E/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E7%AC%AC88%E5%9B%9E/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E7%AC%AC89%E5%9B%9E/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E7%AC%AC90%E5%9B%9E/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E4%B8%A4%E6%80%A7%E5%85%B3%E7%B3%BB/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E6%AC%B2%E6%9C%9B/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E8%87%AA%E6%88%91%E4%BB%B7%E5%80%BC/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E7%AC%AC85%E5%9B%9E/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E7%AC%AC86%E5%9B%9E/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E7%AC%AC87%E5%9B%9E/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E7%AC%AC89%E5%9B%9E/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E7%AC%AC88%E5%9B%9E/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E7%AC%AC90%E5%9B%9E/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E4%B8%A4%E6%80%A7%E5%85%B3%E7%B3%BB/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E6%AC%B2%E6%9C%9B/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E8%87%AA%E6%88%91%E4%BB%B7%E5%80%BC/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E4%B8%AA%E4%BA%BA%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E6%80%A7%E5%8E%8B%E6%8A%91/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E5%A4%A7%E5%AD%A6/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E5%BA%94%E8%AF%95%E6%95%99%E8%82%B2/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E8%A7%82%E5%AF%9F/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E5%BF%83%E7%90%86%E5%AD%A6/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E7%B2%BE%E7%A5%9E%E5%88%86%E6%9E%90/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E8%A1%8C%E4%B8%BA%E4%B8%BB%E4%B9%89/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/tags/%E6%97%B6%E4%BB%A3%E7%B2%BE%E7%A5%9E/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E6%8A%80%E6%9C%AF%E6%97%A5%E5%BF%97/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/Agent/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/CSAPP/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E5%BE%AE%E4%BF%A1Bot/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E5%A4%9AAgent%E6%A1%86%E6%9E%B6/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/tags/%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -3109,77 +3127,77 @@
   
   <url>
     <loc>https://hanxiaofan.site/categories/%E7%A0%94%E7%A9%B6/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/categories/%E6%8A%80%E6%9C%AF%E6%B7%B1%E5%BA%A6/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/categories/AI%E7%BC%96%E5%B9%B4%E5%8F%B2/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/categories/%E6%80%9D%E6%83%B3%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://hanxiaofan.site/categories/AI%E6%97%A5%E6%8A%A5/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/categories/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hanxiaofan.site/categories/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E7%BB%AD%E4%B9%A6/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <loc>https://hanxiaofan.site/categories/%E6%80%9D%E6%83%B3%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/categories/%E7%BA%A2%E6%A5%BC%E6%A2%A6%E7%BB%AD%E4%B9%A6/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/categories/%E6%80%9D%E8%80%83/</loc>
-    <lastmod>2026-09-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://hanxiaofan.site/categories/%E4%BA%BA%E6%96%87%E6%B7%B1%E5%BA%A6/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hanxiaofan.site/categories/%E7%A4%BE%E4%BC%9A%E6%97%A5%E6%8A%A5/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
